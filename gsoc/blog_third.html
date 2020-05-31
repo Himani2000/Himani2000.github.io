@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week-3 </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    
+    p {
+  text-align: justify;
+}
+ a:hover {
+  background-color: yellow;
+  color:blue;
+}
+.gist-container {
+ 
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+  </style>
+  </head>
+
+  <body>
+    
+	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">GSOC2020<i></i> week-3</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	        
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+
+   <section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 ftco-animate">
+          	<p class="mb-5">
+              <img src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" alt="" class="img-fluid">
+            </p>
+            <h3 style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">Week 3 - Starting with data extraction</h3>
+<p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
+
+  I started with audio clustering part first.<br>
+  Audio is a term used to describe any sound or noise that is within a range the human ear is capable of hearing and clustering is the type of
+  unsupervised learning algorithm where the aim is to find the hidden information within the feature space , unlike supervised learning algorithms 
+  the labels are not provided here. A cluster is often an area of density in the feature space where examples from the domain (observations or rows of data) are closer to the cluster than other clusters.
+  <br>
+  There are generally two types of clustering: <br>
+
+  <b>a)Hard clustering</b> :  In hard clustering, each data point either belongs to a cluster completely or not.<br>
+  <b> b)Soft clustering </b>:  In soft clustering, instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned.<br>
+  <br>
+
+  There are different categories of clustering algorithms such as <br>
+  <b>a)Connectivity model:</b> These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. <br>
+
+  <b>b)Centroid models:</b> These are iterative clustering algorithms in which the notion of similarity is derived by the closeness of a data point to the centroid of the clusters<br>
+
+  <b>c)Distribution models:</b>These clustering models are based on the notion of how probable is it that all data points in the cluster belong to the same distribution <br>
+
+  <b>d)Density Models:</b> These models search the data space for areas of varied density of data points in the data space. It isolates various different density regions and assign the data points within these regions in the same cluster. <br>
+  <br>
+
+  I referred to these useful resources for clustering algoritms: <br>
+
+  1.<a style="color:blue" href="https://machinelearningmastery.com/clustering-algorithms-with-python/">clustering-algorithms-with-python</a><br>
+  2.<a style="color:blue" href="https://medium.com/heuristics/audio-signal-feature-extraction-and-clustering-935319d2225">audio-signal-feature-extraction-and-clustering</a><br>
+  3.<a style="color:blue" href="https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/">an-introduction-to-clustering-and-different-methods-of-clustering</a><br>
+  <br>
+
+  However In our case there can be two different types of clustering in the data <br>
+  a) Based on the speakers also called as the <b>speaker diarization</b> <br>
+  b) Based on the <b> pronounciation </b> <br>
+<br>
+  <b>Speaker diarization</b> involves identifing  the speaker along with identification of the boundary/frame of the speech spoken by a particular speaker. It enhances the readability of an automatic speech transcription by structuring the audio stream into speaker turns and by providing the speaker’s true identity. It is a combination of speaker segmentation and speaker clustering.
+<br>
+  I have referred these materials for understanding the basics of speaker diarization :<br>
+
+  1.<a style="color:blue" href="http://www.iitg.ac.in/cse/robotics/?page_id=2442">Speaker Diarization Basic information</a> <br>
+  2.<a  style="color:blue"  href="https://towardsdatascience.com/speaker-diarization-with-kaldi-e30301b05cc8">Speaker Diarization with kaldi</a> <br>
+<br>
+  I will be starting with the clustering based on the pronounciation first.<br>
+  <br>
+
+  There are various machine learning based clustering alogirthms 
+  <br>
+
+ <b>Coding Starts</b>
+<br>
+
+<a style="color:blue" href="https://github.com/Himani2000/GSOC_2020">Link->Image and audio clustering GSOC-2020 Code github</a> <br>
+
+ <b>Part1-Data extraction </b>
+ <br>
+
+ Lets first understand why we need to automate the data extraction step. In future we will be extracting the particular section from the audio based on the word(as in the case of pronounciation), it will be a time consuming task if we do it manually so me and my mentor sir decided to first start with the data extraction scirpts.
+
+ <br>
+
+ <b>python script 1</b> -> that will trim the audio having only 5 words left and 5 words right to the query word(in our first example it is ideology) out of the entire audio.
+ The number of words is a variable and can differ in the future usecases.<br>
+ The following code shows how first  audio start and end time are updated according to the number of words taken into account (in our case five right now), then the url is updated and the new link of the audio file is downloaded by using requests .
+
+<div class="gist-container">
+<script src="https://gist.github.com/Himani2000/d0b95567d383eb6755bb09a643dd0522.js"></script>
+</div>
+</p>
+<p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
+<br>
+<br>
+<b>Shell script </b> -> This script uses the curl command to fetch the textGrid from the webMAUS server. A TextGrid file is used for labeling certain points or regions in an audio file and WebMAUS is the web application that allows the user to automatically align speech recordings to their corresponding text form. It takes two input files a) the audio file b) the text file containing the textual encoding of the words spoken in the audio (both files should have the same name) the output is the textGrid file having the same filename with the .TextGrid extension.
+
+We can also use the webMaus interface for this but automating it with the shell script is always better.<br>
+
+The script uses the curl command to fetch the textGrid file. We have to pass the different audio and text file in each call thus we require loop over all the filenames, for this I stored all the filenames in a txt file. <br>
+
+Note that the output of the curl command is getting saved into demo.html file, yes the curl command will return a html file in which there is a download_link tag which contains the url of the textGrid file. So we also require to  first extract the url from the html file and then download the textGrid file from that url so we require another python script for this (called extract.html). We need to call this file after every curl command in loop.
+
+<br>
+
+The shell script is :
+<br>
+<div class="gist-container">
+
+<script src="https://gist.github.com/Himani2000/cc42a6b201d58076c233c23a126bb40b.js"></script>
+</div>
+
+</p>
+<br>
+<br>
+
+<p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
+
+<b>python-script2</b> This script is getting called after every curl command from the shell script. The aim of the function is to extract the url from a tag present in the html file. It then uses requests library to extract the textGrid file from the url extracted. It takes savefile parameter as a input which is getting passed from the shell script same named as audio and text files.
+
+<div class="gist-container">
+  <script src="https://gist.github.com/Himani2000/e187d0f2d78cc857f24a8b9c889093cc.js"></script>
+
+</div>
+
+
+This was all about this week. Thanks
+</p>
+
+
+
+            <!--<div class="pt-5 mt-5">
+              <h3 class="mb-5">6 Comments</h3>
+              <ul class="comment-list">
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+
+                  <ul class="children">
+                    <li class="comment">
+                      <div class="vcard bio">
+                        <img src="images/person_1.jpg" alt="Image placeholder">
+                      </div>
+                      <div class="comment-body">
+                        <h3>John Doe</h3>
+                        <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                        <p><a href="#" class="reply">Reply</a></p>
+                      </div>
+
+
+                      <ul class="children">
+                        <li class="comment">
+                          <div class="vcard bio">
+                            <img src="images/person_1.jpg" alt="Image placeholder">
+                          </div>
+                          <div class="comment-body">
+                            <h3>John Doe</h3>
+                            <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                            <p><a href="#" class="reply">Reply</a></p>
+                          </div>
+
+                            <ul class="children">
+                              <li class="comment">
+                                <div class="vcard bio">
+                                  <img src="images/person_1.jpg" alt="Image placeholder">
+                                </div>
+                                <div class="comment-body">
+                                  <h3>John Doe</h3>
+                                  <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                                  <p><a href="#" class="reply">Reply</a></p>
+                                </div>
+                              </li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+                </li>
+              </ul>
+              
+              
+              <div class="comment-form-wrap pt-5">
+                <h3 class="mb-5">Leave a comment</h3>
+                <form action="#" class="p-5 bg-light">
+                  <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="website">Website</label>
+                    <input type="url" class="form-control" id="website">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+                  </div>
+
+                </form>
+              </div>
+            </div>-->
+
+          </div> <!-- .col-md-8 -->
+          <div class="col-lg-3 sidebar pl-lg-5 ftco-animate">
+            <div class="sidebar-box">
+              <form action="#" class="search-form">
+                <div class="form-group">
+                  <span class="icon icon-search"></span>
+                  <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
+                </div>
+              </form>
+            </div>
+         <div class="sidebar-box ftco-animate">
+              <h3>Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/blog_one.png);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single.html">Week 1 -Setting up the CRWU-HPC</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> 8/5/2020</a></div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/blog_second.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog_second.html">Week 2 -Setting up Singularity container</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> 15/5/2020</a></div>
+                   
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3>Tag Cloud</h3>
+              <div class="tagcloud">
+                <a href="#" class="tag-cloud-link">shell/a>
+                <a href="#" class="tag-cloud-link">python</a>
+                <a href="#" class="tag-cloud-link">request</a>
+                <a href="#" class="tag-cloud-link">curl</a>
+                <a href="#" class="tag-cloud-link">webMAUS</a>
+               
+              </div>
+            </div>
+
+           
+          </div>
+
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+   <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
