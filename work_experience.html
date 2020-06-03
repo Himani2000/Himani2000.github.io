@@ -40,68 +40,7 @@ div {
 }
 
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
 body{
-	
-	
-	
 	 background-color:#E8EEEF;
 }
 /* change the background color */
@@ -153,28 +92,6 @@ h1,h2,h3,h5{
 </style>
 </head>
 
-<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark",style="background-color: #000000;">
-  
-  
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link"style="color:white"  href="#about">About</a>
-      <a class="nav-item nav-link" href="#work_experience">Work-Experience</a>
-       <a class="nav-item nav-link" href="#">Projects</a>
-        <a class="nav-item nav-link" href="#">Mentorship and leadership</a>
-
-        <a class="nav-item nav-link" href="#publications">Publications</a>
-         <a class="nav-item nav-link" href="#">Blogs</a>
-          <a class="nav-item nav-link" href="#">CV</a>
-          <a class="nav-item nav-link" href="#">Resume</a>
-
-           <a class="nav-item nav-link" href="#">Contact</a>
-           <a class="nav-item nav-link" href="gsoc.html">GSOC_2020</a>
-     
-    </div>
-  </div>
-</nav>-->
 <nav class="navbar navbar-expand-sm navbar-custom bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
         <span class="navbar-toggler-icon"></span>
@@ -189,13 +106,13 @@ h1,h2,h3,h5{
                 <a class="nav-link" href="work_experience.html">Work-Experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects </a>
+                <a class="nav-link" href="">Projects </a>
             </li>
              <li class="nav-item">
-                <a class="nav-link" href="#">Mentorship and Leadership</a>
+                <a class="nav-link" href="">Mentorship and Leadership</a>
             </li>
              <li class="nav-item">
-                <a class="nav-link" href="publications.html">Publications</a>
+                <a class="nav-link" href="Publications.html">Publications</a>
             </li>
              <li class="nav-item">
                 <a class="nav-link" >Blogs</a>
@@ -212,67 +129,51 @@ h1,h2,h3,h5{
 </nav>
 <body>
 
-<section class="#about">
-	<div class="container-fluid" style="padding-top: 10px">
-  
-  
-  <h1 style="padding-top: 15px;padding-left: 170px;padding-right:170px;padding-bottom: 20px;color: black">Himani Negi</h1>    
 
-  <div class="row" style="padding-left: 170px;padding-right: 170px">
- 
+
+<br>
+<section id="#work_experience">
+	<div class="container-fluid">
+  
+  
+  <div class="row">
     <div class="col-md-8" >
-      <p style="color: black"> Hi, This is me, Himani Negi.Currently I am a student developer in Google summer of code under redhenlab organization. I am working under Image and audio clustering project. Previosuly I was research intern in IIIT-D where I worked in analysing the  collusive behaviour in social networking site.Creating a world with innovative ideas is something a part of my vision and I never look back to put efforts for it.
-      </p>
-      
+      <div class="section-title">
+							<h3 style="color: black">Work Experience</h3>
+						</div>
+						<ul class="resume-list">
 
-    </div>
-     	 <div class="col-sm-3" >
-      <img src = "img/personal.png" height="300" width="350"  style="border: 5px solid black;"class = "img-circle" >  
+							<li>
+								<h3 style="color: black">May 2020-Present</h3>
+								<h3 style="color: black">Intern-Google summer of code</h3>
+								<p style="color: black;font-size: 20px">Working in image and audio clustering in the redhenlab organization under google summer of code.<br>
+									Read more at:<a href="gsoc/index.html">GSOC_2020</a>
+								</p>
+							</li>
+							<li>
+								<h3 style="color: black">Jun 2019-Oct 2019</h3>
+								<h3 style="color: black">Research Intern-IIIT-Delhi</h3>
+								<p style="color: black;;font-size: 20px"> The project aims to determine the collusive behaviour in a social networking site. Worked on the 
+								data mining techniques to extract the data from the web, managed features,analyzed and visualized the data.Applied different machine learning and deep learning models. Used natural language processing and time series analysis<br>
+								
 
-	</div>
+								</p>
+							</li>
+
+
+						</ul>
     </div>
     
-   
   </div>
 </div>
-   
-
+   <br>
 </section>
-
 <br>
 
 
 
 
 
-<div id="#contact">
-	<div class="container-fluid">
-  
-  
-  <div class="row">
-  	<h3 style="color:black;padding-left: 15px;padding-bottom: 10px;padding-top:10px">Contact </h3>
-  	<br>
-    <div class="col-md-6">
-     <div class="social-links">
-		<a href="https://www.linkedin.com/in/himaninegi/">LinkedIn<i class="fa fa-linkedin"></i></a>
-		<a href="https://github.com/Himani2000">Github<i class="fa fa-github"></i></a>
-		<a href="https://twitter.com/himani__negi">Twitter<i class="fa fa-twitter"></i></a>
-     	
-     	
-     	<a href="mailto:negi.himani11@gmail.com">GMail<i class="fa fa-gmail"></i></a>
-			
-    
-
-	</div>
-
-
-   </div>
-  
-    
-  </div>
-</div>
-   
-</div>
 
 
 
@@ -291,12 +192,6 @@ h1,h2,h3,h5{
 
 
 
-
-
-
-
-
-	
 	<footer class="footer-section">
 		<div class="container text-center">
 			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
