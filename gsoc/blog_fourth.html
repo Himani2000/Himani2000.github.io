@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week-3 </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    
+    p {
+  text-align: justify;
+  color:black;
+}
+li{
+	text-align: justify;
+  color:black; 	
+
+}
+ a:hover {
+  background-color: yellow;
+  color:blue;
+}
+.gist-container {
+ 
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+  </style>
+  </head>
+
+  <body>
+    
+	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">GSOC2020<i></i> week-1 coding period</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	        
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+
+   <section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 ftco-animate">
+          	<p class="mb-5">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQsGNary_El5ZzhwC2pf35QZ8ADsDH2l3f4c1ElUCGlU-GdQNkv&usqp=CAU" alt="" class="img-fluid">
+            </p>
+            <h3 style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">Week 1 - Starting with audio clustering </h3>
+<p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
+
+<p>Let&rsquo;s start with this week...!!</p>
+<p><strong>Task-1</strong></p>
+<p>Last week I wrote the script for the data extraction, in that script we replace the &ldquo;NA&rdquo; with 0.0</p>
+<p>Which is wrong, there are several reasons:</p>
+<ol>
+<li>NA represents the punctuation mark, so we should ideally consider upto the word just before the punctuation mark.</li>
+<li>I updated the script as per above point but there were still NA , reason being that if there is a advertisement break then there can be more than three NA in a row.</li>
+<li>I updated the script by checking from 5<sup>th</sup> word to 3<sup>rd</sup> word(note that we took 5 word left and right to the query word), if 3<sup>rd</sup> word still has NA then it means there are three NA in a row so simply drop that &nbsp;audio file, at the same time update the transcript. The same procedure was repeated for the end time.</li>
+</ol>
+<p>The script can be found in this link</p> <a  style="color:blue"  href="https://github.com/Himani2000/GSOC_2020/blob/master/audio_and_Transcript_extract.py">https://github.com/Himani2000/GSOC_2020/blob/master/audio_and_Transcript_extract.py </a>
+<p>And you can see the updated function below:</p>
+<div class="gist-container">
+ <script src="https://gist.github.com/Himani2000/279bc3ae48be91025296728c3ff770e9.js"></script>
+
+</div>
+
+<br><br><br>
+<p><strong>Task-2 </strong></p>
+<p>The aim is to write a python script that will make a audio url from the dataframe( excel file) where the file name , start time and end time are provided. After all the audio url are made we have to &nbsp;download those file simply using the python request library,</p>
+<p>Check the complete script in this link</p><a style="color:blue"  href="https://github.com/Himani2000/GSOC_2020/blob/master/data_extract_word.py">https://github.com/Himani2000/GSOC_2020/blob/master/data_extract_word.py</a>
+<p>You can see the two function below:</p>
+
+<div class="gist-container">
+
+<script src="https://gist.github.com/Himani2000/26a7eb9882072721250288d84a70abb1.js"></script>
+
+</div>
+<br><br><br>
+<p><b>Introduction to audio data</b></p>
+<p> A sample audio waveform is represented as below, here the x axis represents the time and y axis represents the amplitue </p>
+ <img src="https://i.stack.imgur.com/g0NID.png" alt="" class="img-fluid">
+<p>The basic terms used in the audio data are:</p>
+<p> 1.Amplitude:It is the size of the vibration and this determines how loud the sound is , the shorter and more frequent the waves are the higher the pitch or frequency.</p>
+<p> 2.Frequency: It is the speed of the vibration and this determines the pitch of the sound</p>
+<p> 3.Sampling rate: In simple words the sampling rate is the number of samples of audio per second, and is measured in Hz/KHz. A full sampling rate is 44.1KHz however the more reasonable sampling rate is 22KHz because that is the audible sound to human. We can relate the sampling rate to the resolution in images where the higher resolution the clearer a image is.The best explanation on sampling rate is provided here : <a href="https://towardsdatascience.com/ok-google-how-to-do-speech-recognition-f77b5d7cbe0b">https://towardsdatascience.com/ok-google-how-to-do-speech-recognition-f77b5d7cbe0b</a></p>
+<p>We will be using the<strong> librosa library this week</strong> for extracting the audio features, later on I will do a extensive search about the other tools we can use for feature extraction.</p>
+<p>When we pass the audio into the librosa library it returns the sr , y</p>
+<p>The y is the sample data representing the amplitude at each time step and sr is the sampling frequency</p>
+<p>Librosa uses a default sampling rate of 22KHz. Also note that the dimension of the sample data represents the channels present in the audio. A channel in simple terms is a source of audio for example if in a audio there are two people talking then the audio has two channels since there are two sources of sound &ndash; 2 people.</p>
+<p>We usually convert the stereo audio to mono audio before using that in audio processing. Again, librosa helps us to do this. We just pass the parameter&nbsp;<em>mono=True&nbsp;</em>while loading the .wav file and it converts any stereo audio to mono for us.</p>
+
+
+
+<p><strong>Audio features:</strong></p>
+
+<img src="https://i.stack.imgur.com/yrMqS.jpg" alt="" class="img-fluid">
+<p>This is most important part of a audio file. The features are generally grouped into two domains :</p>
+<p>a)time domain features : These includes the energy of signal, zero crossing rate, maximum amplitude, minimum energy, etc.</p>
+<p>b)frequency domain features : These includes:</p>
+<ol>
+<li>MFCC (Mel-Frequency Cepstral Coefficient.) &agrave; . MFCC is a sentence, is a "representation" of the vocal tract that produces the sound. Think of it like an x-ray of your mouth.The details about MFCC can be found here <a href="http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/">http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/</a></li>
+</ol>
+
+<ol start="2">
+<li>Log Mel-spectogram&agrave; A time by frequency representation of the audio wave form is called a spectogram. That spectogram is then mapped to the Mel-scales thus giving us the Mel-spectogram. But because human perception of sound intensity is logarithmic in nature, the log form of the Mel-spectogram is the better one in theory.</li>
+<li>HPSS(Harmonic-percussive source separation)&agrave; It seperates the harmonic and the percussive source of an audio file</li>
+<li>Chroma &agrave; it classifies the pitches into 12 distinct classes called 'pitch profile</li>
+</ol>
+<p>The reason for converting the time domain to the frequency domain, is that the same thing in the frequency domain can be represented using the less space and hence requires less computational power as compared to the time domain.</p>
+
+
+<p><b>Audio and feature visualization</b></p>
+<p> We are starting with our first dataset that has two variants of  pronunciation "EE" and "AI"</p><br>
+<p>The first image(below) the difference in both of the audio at sample rate 22KHz</p>
+
+<img src="images/audio_vis_22.png" alt="" class="img-fluid">
+<p>The second  image(below) the difference in both of the audio at sample rate 44KHz</p>
+
+
+<img src="images/audio_vis_44.png" alt="" class="img-fluid">
+
+<p>My understanding is that there is a significant difference between the two audio visualization but the difference between the sample rate is not much visible</p>
+
+<p>Let us deep dive into the feature visualization(please not the difference between both the pronounciations )</p>
+<p>1. MFCC features of both (EE and AI)</p>
+
+<img src="images/mfcc.png" alt="" class="img-fluid">
+<p>2. Log-Mel spectrogram of both (EE and AI)</p>
+<img src="images/log-mel.png" alt="" class="img-fluid">
+<p>3. Chroma of both (EE and AI)</p>
+<img src="images/chroma.png" alt="" class="img-fluid">
+
+
+
+
+<img src="" alt="" class="img-fluid">
+<img src="" alt="" class="img-fluid">
+<img src="" alt="" class="img-fluid">
+
+
+<p><b>Clustering</b></p>
+<p>I think that there is no best clustering algorithm since data is not same in each case, we have to perform different algorithms to know which will best fit our data.</p>
+<p>In this week, I will be using the scikit learn library for implementing the clustering algorithms.</p>
+<p><a href="https://scikit-learn.org/stable/modules/clustering.html">https://scikit-learn.org/stable/modules/clustering.html</a></p>
+<p>Lets get started with the coding</p>
+<p>We will be needing the scikit learn library you can install it by</p>
+<p>1. sudo pip install scikit-learn</p>
+<p>2. then run (import sklearn) if it gives error then there is some problem in your installation</p>
+
+<p>Lets have a look at the basic clustering algorithms </p>
+<img src="images/clustering.png" alt="" class="img-fluid">
+<a href="https://scikit-learn.org/stable/modules/clustering.html">https://scikit-learn.org/stable/modules/clustering.html</a>
+  
+
+
+
+  </p>
+
+
+
+            <!--<div class="pt-5 mt-5">
+              <h3 class="mb-5">6 Comments</h3>
+              <ul class="comment-list">
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+
+                  <ul class="children">
+                    <li class="comment">
+                      <div class="vcard bio">
+                        <img src="images/person_1.jpg" alt="Image placeholder">
+                      </div>
+                      <div class="comment-body">
+                        <h3>John Doe</h3>
+                        <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                        <p><a href="#" class="reply">Reply</a></p>
+                      </div>
+
+
+                      <ul class="children">
+                        <li class="comment">
+                          <div class="vcard bio">
+                            <img src="images/person_1.jpg" alt="Image placeholder">
+                          </div>
+                          <div class="comment-body">
+                            <h3>John Doe</h3>
+                            <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                            <p><a href="#" class="reply">Reply</a></p>
+                          </div>
+
+                            <ul class="children">
+                              <li class="comment">
+                                <div class="vcard bio">
+                                  <img src="images/person_1.jpg" alt="Image placeholder">
+                                </div>
+                                <div class="comment-body">
+                                  <h3>John Doe</h3>
+                                  <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                                  <p><a href="#" class="reply">Reply</a></p>
+                                </div>
+                              </li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+                </li>
+              </ul>
+              
+              
+              <div class="comment-form-wrap pt-5">
+                <h3 class="mb-5">Leave a comment</h3>
+                <form action="#" class="p-5 bg-light">
+                  <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="website">Website</label>
+                    <input type="url" class="form-control" id="website">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+                  </div>
+
+                </form>
+              </div>
+            </div>-->
+
+          </div> <!-- .col-md-8 -->
+          <div class="col-lg-3 sidebar pl-lg-5 ftco-animate">
+            <div class="sidebar-box">
+              <form action="#" class="search-form">
+                <div class="form-group">
+                  <span class="icon icon-search"></span>
+                  <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
+                </div>
+              </form>
+            </div>
+         <div class="sidebar-box ftco-animate">
+              <h3>Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/blog_one.png);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single.html">Week 1 -Setting up the CRWU-HPC</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> 8/5/2020</a></div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/blog_second.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog_second.html">Week 2 -Setting up Singularity container</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> 15/5/2020</a></div>
+                   
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3>Tag Cloud</h3>
+              <div class="tagcloud">
+                <a href="#" class="tag-cloud-link">shell/a>
+                <a href="#" class="tag-cloud-link">python</a>
+                <a href="#" class="tag-cloud-link">request</a>
+                <a href="#" class="tag-cloud-link">curl</a>
+                <a href="#" class="tag-cloud-link">webMAUS</a>
+               
+              </div>
+            </div>
+
+           
+          </div>
+
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+   <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
