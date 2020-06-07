@@ -110,7 +110,7 @@ li{
 <p>The basic terms used in the audio data are:</p>
 <p> 1.Amplitude:It is the size of the vibration and this determines how loud the sound is , the shorter and more frequent the waves are the higher the pitch or frequency.</p>
 <p> 2.Frequency: It is the speed of the vibration and this determines the pitch of the sound</p>
-<p> 3.Sampling rate: In simple words the sampling rate is the number of samples of audio per second, and is measured in Hz/KHz. A full sampling rate is 44.1KHz however the more reasonable sampling rate is 22KHz because that is the audible sound to human. We can relate the sampling rate to the resolution in images where the higher resolution the clearer a image is.The best explanation on sampling rate is provided here : <a href="https://towardsdatascience.com/ok-google-how-to-do-speech-recognition-f77b5d7cbe0b">https://towardsdatascience.com/ok-google-how-to-do-speech-recognition-f77b5d7cbe0b</a></p>
+<p> 3.Sampling rate: In simple words the sampling rate is the number of samples of audio per second, and is measured in Hz/KHz. A full sampling rate is 44.1KHz however the more reasonable sampling rate is 22KHz because that is the audible sound to human. We can relate the sampling rate to the resolution in images where the higher resolution the clearer a image is.The best explanation on sampling rate is provided here : <a  style="color:blue" href="https://towardsdatascience.com/ok-google-how-to-do-speech-recognition-f77b5d7cbe0b">https://towardsdatascience.com/ok-google-how-to-do-speech-recognition-f77b5d7cbe0b</a></p>
 <p>We will be using the<strong> librosa library this week</strong> for extracting the audio features, later on I will do a extensive search about the other tools we can use for feature extraction.</p>
 <p>When we pass the audio into the librosa library it returns the sr , y</p>
 <p>The y is the sample data representing the amplitude at each time step and sr is the sampling frequency</p>
@@ -126,7 +126,7 @@ li{
 <p>a)time domain features : These includes the energy of signal, zero crossing rate, maximum amplitude, minimum energy, etc.</p>
 <p>b)frequency domain features : These includes:</p>
 <ol>
-<li>MFCC (Mel-Frequency Cepstral Coefficient.) &agrave; . MFCC is a sentence, is a "representation" of the vocal tract that produces the sound. Think of it like an x-ray of your mouth.The details about MFCC can be found here <a href="http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/">http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/</a></li>
+<li>MFCC (Mel-Frequency Cepstral Coefficient.) &agrave; . MFCC is a sentence, is a "representation" of the vocal tract that produces the sound. Think of it like an x-ray of your mouth.The details about MFCC can be found here <a  style="color:blue" href="http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/">http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/</a></li>
 </ol>
 
 <ol start="2">
@@ -157,31 +157,43 @@ li{
 <img src="images/log-mel.png" alt="" class="img-fluid">
 <p>3. Chroma of both (EE and AI)</p>
 <img src="images/chroma.png" alt="" class="img-fluid">
+<p><b>Please note that these there is lot to study about the features that in coming weeks I will go through</b></p>
+<p> To start with clustering models I choose the mfcc features </p>
 
+<p><b>Please note that the complete code of clustering can be found here </b></p> 
+<a  style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/audio_feature_engineering.ipynb">https://github.com/Himani2000/GSOC_2020/blob/master/audio_feature_engineering.ipynb</a>
+<p>The code to calculate the mfcc features is given below. note that I have to figure out the number of mfccs (in this case i used 13) </p>
+<p>The reason is still not clear to me, I read in multiple sources to use upto 12-13, I still  have to do research in this</p>
+<div class="gist-container">
+	<script src="https://gist.github.com/Himani2000/8d2ac172478d37a9abcf70b53f8426f4.js"></script>
+	</div>
 
-
-
-<img src="" alt="" class="img-fluid">
-<img src="" alt="" class="img-fluid">
-<img src="" alt="" class="img-fluid">
 
 
 <p><b>Clustering</b></p>
 <p>I think that there is no best clustering algorithm since data is not same in each case, we have to perform different algorithms to know which will best fit our data.</p>
 <p>In this week, I will be using the scikit learn library for implementing the clustering algorithms.</p>
-<p><a href="https://scikit-learn.org/stable/modules/clustering.html">https://scikit-learn.org/stable/modules/clustering.html</a></p>
+<p><a style="color:blue" href="https://scikit-learn.org/stable/modules/clustering.html">https://scikit-learn.org/stable/modules/clustering.html</a></p>
 <p>Lets get started with the coding</p>
 <p>We will be needing the scikit learn library you can install it by</p>
 <p>1. sudo pip install scikit-learn</p>
 <p>2. then run (import sklearn) if it gives error then there is some problem in your installation</p>
 
 <p>Lets have a look at the basic clustering algorithms </p>
+<a style="color:blue" href="https://scikit-learn.org/stable/modules/clustering.html">https://scikit-learn.org/stable/modules/clustering.html</a>
 <img src="images/clustering.png" alt="" class="img-fluid">
-<a href="https://scikit-learn.org/stable/modules/clustering.html">https://scikit-learn.org/stable/modules/clustering.html</a>
+
   
 
+<p>The results of the clustering algorithms that I have applied till now are</p>
+<img src="images/clustering_results.png" alt="" class="img-fluid">
+
+<p>1. I have to apply it to all the clustering algorithms mentioned above in the table</p>
+<p>2. I have to go through all the evaluation metrics used for clustering</p>
 
 
+<p> I am also curious should I go through this course or not?</p>
+<a  style="color:blue" href="https://www.coursera.org/lecture/audio-signal-processing/audio-features-ZRurD">https://www.coursera.org/lecture/audio-signal-processing/audio-features-ZRurD</a>
   </p>
 
 
