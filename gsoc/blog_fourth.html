@@ -126,13 +126,13 @@ li{
 <p>a)time domain features : These includes the energy of signal, zero crossing rate, maximum amplitude, minimum energy, etc.</p>
 <p>b)frequency domain features : These includes:</p>
 <ol>
-<li>MFCC (Mel-Frequency Cepstral Coefficient.) &agrave; . MFCC is a sentence, is a "representation" of the vocal tract that produces the sound. Think of it like an x-ray of your mouth.The details about MFCC can be found here <a  style="color:blue" href="http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/">http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/</a></li>
+<li>MFCC (Mel-Frequency Cepstral Coefficient.) : MFCC is a sentence, is a "representation" of the vocal tract that produces the sound. Think of it like an x-ray of your mouth.The details about MFCC can be found here <a  style="color:blue" href="http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/">http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/</a></li>
 </ol>
 
 <ol start="2">
-<li>Log Mel-spectogram&agrave; A time by frequency representation of the audio wave form is called a spectogram. That spectogram is then mapped to the Mel-scales thus giving us the Mel-spectogram. But because human perception of sound intensity is logarithmic in nature, the log form of the Mel-spectogram is the better one in theory.</li>
-<li>HPSS(Harmonic-percussive source separation)&agrave; It seperates the harmonic and the percussive source of an audio file</li>
-<li>Chroma &agrave; it classifies the pitches into 12 distinct classes called 'pitch profile</li>
+<li>Log Mel-spectogram : A time by frequency representation of the audio wave form is called a spectogram. That spectogram is then mapped to the Mel-scales thus giving us the Mel-spectogram. But because human perception of sound intensity is logarithmic in nature, the log form of the Mel-spectogram is the better one in theory.</li>
+<li>HPSS(Harmonic-percussive source separation): It seperates the harmonic and the percussive source of an audio file</li>
+<li>Chroma:  It is a representation of how humans relate colors to notes. In other words we think of same notes but from two different octaves to be of the same color. Thus we have 12 possible values at each window. A, A#, B, C, C#, D, D#, E, F, F#, G and G#</li>
 </ol>
 <p>The reason for converting the time domain to the frequency domain, is that the same thing in the frequency domain can be represented using the less space and hence requires less computational power as compared to the time domain.</p>
 
