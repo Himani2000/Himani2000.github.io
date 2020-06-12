@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week-3 </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    
+    p {
+  text-align: justify;
+  color:black;
+}
+li{
+	text-align: justify;
+  color:black; 	
+
+}
+ a:hover {
+  background-color: yellow;
+  color:blue;
+}
+.gist-container {
+ 
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+  </style>
+  </head>
+
+  <body>
+    
+	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">GSOC2020<i></i> week-1 coding period</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	        
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+
+   <section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 ftco-animate">
+          	<p class="mb-5">
+              <img src="https://images.yourstory.com/cs/wordpress/2018/03/coding-job.png?fm=png&auto=format" alt="" class="img-fluid">
+            </p>
+            <h3 style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px"><b>Week 1 - Starting with audio clustering</b> </h3>
+<p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
+
+<b>Let us get started with the week-2</b> <br>
+
+
+I started discussing the layout of the project with my mentor this week, after discussion we figured out some points to get the clustering going.<br>
+The Aim of the audio clustering projects is to make a system that clusters the audio based on the pronunciation and Clustering all Content from the same Speaker together would also be nice as an Option.<br><br>
+
+Clustering based on pronunciation there can be two main broad approaches :<br>
+
+<b>Approach-1:</b><br>
+For the clustering, we ideally want to cluster based on the pronunciation, so we would like to extract the letter that differs in both the pronunciation , for example in the case of ideology “ai” and “ee” . We can use the textGrid file to extract the part from the audio containing the sound and then apply the clustering algorithms. Note that We only Need this Approach where the TextGrid does not Show the difference. In the case of ideology, afaik it Always says "ai" and never "ee" because it is based on a Dictionary that only knows the first pronunciation.<br><br>
+
+<b>Approach-2:</b><br>
+Extract the complete word example “ideology” and then apply the clustering algorithms.<br><br>
+
+The tasks for this week are:<br>
+<b>Task-1</b><br>
+
+1)See the results of clustering in  dataset  based on the two scenarios <br>
+a)based on the vowel sound that  differs in both pronunciation <br>
+b)complete  word<br>
+
+<b>Task-2 </b><br>
+
+2) Start with the image clustering, extend the existing script that my mentor has provided me earlier.<br>
+<br>
+<b>Lets get started  !!</b>
+<p>To extract the word/vowel part from the audio we need to have the timeframe of that word or vowel.Here the textGrid files comes to help, we have extracted the textGrid files from the audio and the transcript files in the previous week, now for each audio we have the textGrid files.</p><br>
+<p>To extract the timeframe from the textGrid I use the tgt library. It can be install via pip</p>
+
+<p><b>pip install tgt</b></p>
+<p>The documentation to use the library is :<a href="https://textgridtools.readthedocs.io/en/latest/api.html">https://textgridtools.readthedocs.io/en/latest/api.html</a></p>
+<p>Let us understand  the readTextGridUpdate() function  ( code below)</p>
+<p>text_grid= tgt.read_textgrid(filename)</p>
+<p>This line is reading the textGrid file and returning the object i.e text_grid . A text_grid object has the tiers . A tier according to my understading is the levels of the representation of a word textGrid provides .</p>
+<p>As you can see the image below this &nbsp;textGrid has 3 tiers.</p>
+<img src="images/textGrid_explanation.png" alt="" class="img-fluid"><br><br>
+<p>a)The <b>Tier 1</b> name is "ORT-MAU" : It provides the timeframe of the entire word</p>
+<p>b)The <b>Tier 2 </b>name is "KAN-MAU": It provides the timeframe of the word pronunciation</p>
+<p>c)The <b>Tier 3</b> name is "MAU": It provides the timeframe of each letter in the word</p>
+<p>Also each tier has some intervals denoting the number of items each tier has</p>
+<p>In the code I loop through all the tiers , and for each tier I searched for the word and the vowel for which I want to extract the time.
+This was done using tier.get_annotations_with_text().</p>
+
+<p>This function readTextGridUpdate() returns all the matching intervals , now there can be a case where we may have the word more than once in the textGrid file ( note that we also have the ideology five word dataset). In that case I used the first occurrence of the word. The function returns the start and end time of both word and the&nbsp; vowel.</p>
+
+
+<div class="gist-container">
+<script src="https://gist.github.com/Himani2000/b12a118c3ebab2c3abd0124396f9431d.js"></script>
+
+</div><br><br>
+<p>
+Now lets see the <b>audio_trimming()</b> function: <br>
+The function takes the starting and the ending time and trim the audio according to it. We have used the sampling rate of 16000 to load the audio . My mentor suggested me to use this sampling rate as most speech processing Systems use 16 kHz . See the explanation in this link.<br>
+
+<a href="https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_ratehttps://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_rate">https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_ratehttps://en.wikipedia.org/wiki/Sampling_(signal_processing)#Sampling_rate</a><br>
+
+
+
+<b>Let us visualize if the script is running correct or not</b>.<br>
+
+Let's first test for ideology, the differentiating sound in both pronunciations is "aI / EE."I took the first audio file with the pronunciation" EE "and simulate it on the praat software Note that" EE "is represented by the" aI "in the textGrid and therefore in the praat software.
+
+
+Now if we visualize the same thing after trimming the word  as it is visible in the representation provided by the praat software then we have trimmed it right. 
+
+<img src="images/ideology_eee.png" alt="" class="img-fluid"><br><br>
+
+Now let us look the second ideology pronunciation i.e “AI”, this is interesting case  look that this audio contain some sound other than the ideology and ideally we do not want that so the trimming of the word is useful in such sscenarios. Here also the representation is getting matched after trimming so we can conclude that our 
+trimming function is working correctly<br>
+
+<img src="images/ideology_ai.png" alt="" class="img-fluid"><br><br>
+</p>
+<p>
+The same thing was validated for the other dataset.<br>
+Now let us apply the basic machine learning models .In this week I applied these models: <br>
+1)K Means <br>
+2.Agglomerative Clustering <br>
+3)Birch DBSCAN<br>
+4)Mean shift <br>
+5)Optics <br>
+6)Gaussian Mixture<br> 
+
+We have 3 datasets as of now a)Ideology 200 ms b)Muslim c)Ideology 5 word , for each dataset I apply these models on a) complete data b)pca transformed c)T-SNE transformed<br> 
+
+1.<b>PCA :</b>PCA is to represent a multivariate data table as smaller set of variables (summary indices) in order to observe trends, jumps, clusters and outliers. Statistically, PCA finds lines, planes and hyper-planes in the K-dimensional space that approximate the data as well as possible in the least squares sense.<br>
+
+2.<b>t-SNE:</b>  The t-SNE algorithm calculates a similarity measure between pairs of instances in the high dimensional space and in the low dimensional space. It then tries to optimize these two similarity measures using a cost function.<br>
+
+<b>Which is better?</b> <br>
+t-SNE is a probabilistic method while PCA is a mathematical technique. Also In order to represent high dimension data on low dimension, non-linear manifold, it is essential that similar data points must be represented close together, which is something t-SNE does not PCA.<br>
+
+These are some good articles on PCA and t-SNE<br>
+<a href="https://www.datacamp.com/community/tutorials/introduction-t-sne">https://www.datacamp.com/community/tutorials/introduction-t-sne </a><br>
+<a href="https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1">https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1</a><br>
+
+<b>Evalauation metrics</b> :<br>
+There are majorly two types of measures to assess the clustering performance.<br>
+<b>(i) Extrinsic Measures</b> which require ground truth labels. Examples are Adjusted Rand index, Fowlkes-Mallows scores, Mutual information based scores, Homogeneity, Completeness and V-measure.<br>
+<b>(ii) Intrinsic Measures </b>that does not require ground truth labels. Some of the clustering performance measures are Silhouette Coefficient, Calinski-Harabasz Index, Davies-Bouldin Index etc.<br>
+<a href="https://towardsdatascience.com/clustering-evaluation-strategies-98a4006fcfc">https://towardsdatascience.com/clustering-evaluation-strategies-98a4006fcfc</a>
+
+<br>
+<br>
+<b>Results </b>
+The abbrevations I have taken are <br>
+  1.Adjusted Rand index -> ARI<br>
+  2.Mutual Information based scores-->MI <br>
+  3.Homogeneity-->H<br>
+  4.completeness ->C<br>
+  5.V-measure ->V<br>
+  6.Fowlkes-Mallows score ->FM <br>
+  7.Accuracy ->A <br>
+  8.Recall ->R <br>
+  9.Precision ->P <br>
+
+
+
+<a href="https://github.com/Himani2000/GSOC_2020/blob/master/Audio_Clustering_Models.ipynb">https://github.com/Himani2000/GSOC_2020/blob/master/Audio_Clustering_Models.ipynb</a><br>
+
+<img src="images/ideology_200_1.png" alt="" class="img-fluid"><br><br>
+<img src="images/ideology_200_3.png" alt="" class="img-fluid"><br><br>
+<img src="images/ideology_200_2.png" alt="" class="img-fluid"><br><br>
+
+<img src="images/muslim_1.png" alt="" class="img-fluid"><br><br>
+<img src="images/muslim_2.png" alt="" class="img-fluid"><br><br>
+<img src="images/muslim_3.png" alt="" class="img-fluid"><br><br>
+
+
+<img src="images/ideology_5_1.png" alt="" class="img-fluid"><br><br>
+<img src="images/ideology_5_2.png" alt="" class="img-fluid"><br><br>
+<img src="images/ideology_5_3.png" alt="" class="img-fluid"><br><br>
+
+
+</p>
+
+<p> Lets get started with the Image clustering 
+
+1)In the <b> ideology dataset</b> the resulst of agglomerative clustering:<br>
+<img src="images/ideology_images_agg.png" alt="" class="img-fluid"><br><br>
+<img src="images/ideology_images_agg_2.png" alt="" class="img-fluid"><br><br>
+
+
+2)In the ideology DBSCAN results returned only 1 cluster and all the metrics required more than one cluster to evaluate thus DBSCAN does not worked in this.<br>
+
+
+
+3)In the muslim dataset the aaglomerative clustering results:<br>
+
+<img src="images/muslim_agg_1.png" alt="" class="img-fluid"><br><br>
+<img src="images/muslim_agg_2.png" alt="" class="img-fluid"><br><br>
+
+4)In the muslim dataset the Mean shift clustering results:
+<img src="images/muslim_mean1.png" alt="" class="img-fluid"><br><br>
+<img src="images/muslim_mean2.png" alt="" class="img-fluid"><br><br>
+
+
+5)In the Muslim dataset DBSCAN  and OPTICS both results returned only 1 cluster and all the metrics required more than one cluster to evaluate thus DBSCAN does not worked in this.
+
+</p>
+
+  </p>
+
+
+
+            <!--<div class="pt-5 mt-5">
+              <h3 class="mb-5">6 Comments</h3>
+              <ul class="comment-list">
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+
+                  <ul class="children">
+                    <li class="comment">
+                      <div class="vcard bio">
+                        <img src="images/person_1.jpg" alt="Image placeholder">
+                      </div>
+                      <div class="comment-body">
+                        <h3>John Doe</h3>
+                        <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                        <p><a href="#" class="reply">Reply</a></p>
+                      </div>
+
+
+                      <ul class="children">
+                        <li class="comment">
+                          <div class="vcard bio">
+                            <img src="images/person_1.jpg" alt="Image placeholder">
+                          </div>
+                          <div class="comment-body">
+                            <h3>John Doe</h3>
+                            <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                            <p><a href="#" class="reply">Reply</a></p>
+                          </div>
+
+                            <ul class="children">
+                              <li class="comment">
+                                <div class="vcard bio">
+                                  <img src="images/person_1.jpg" alt="Image placeholder">
+                                </div>
+                                <div class="comment-body">
+                                  <h3>John Doe</h3>
+                                  <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                                  <p><a href="#" class="reply">Reply</a></p>
+                                </div>
+                              </li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta mb-3">November 13, 2019 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+                </li>
+              </ul>
+              
+              
+              <div class="comment-form-wrap pt-5">
+                <h3 class="mb-5">Leave a comment</h3>
+                <form action="#" class="p-5 bg-light">
+                  <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="website">Website</label>
+                    <input type="url" class="form-control" id="website">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+                  </div>
+
+                </form>
+              </div>
+            </div>-->
+
+          </div> <!-- .col-md-8 -->
+          <div class="col-lg-3 sidebar pl-lg-5 ftco-animate">
+            <div class="sidebar-box">
+              <form action="#" class="search-form">
+                <div class="form-group">
+                  <span class="icon icon-search"></span>
+                  <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
+                </div>
+              </form>
+            </div>
+         <div class="sidebar-box ftco-animate">
+              <h3>Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/blog_one.png);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single.html">Week 1 -Setting up the CRWU-HPC</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> 8/5/2020</a></div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/blog_second.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog_second.html">Week 2 -Setting up Singularity container</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> 15/5/2020</a></div>
+                   
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3>Tag Cloud</h3>
+              <div class="tagcloud">
+                <a href="#" class="tag-cloud-link">shell/a>
+                <a href="#" class="tag-cloud-link">python</a>
+                <a href="#" class="tag-cloud-link">request</a>
+                <a href="#" class="tag-cloud-link">curl</a>
+                <a href="#" class="tag-cloud-link">webMAUS</a>
+               
+              </div>
+            </div>
+
+           
+          </div>
+
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+   <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
