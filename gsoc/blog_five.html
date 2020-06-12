@@ -50,7 +50,7 @@ li{
     
 	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">GSOC2020<i></i> week-1 coding period</a>
+	      <a class="navbar-brand" href="index.html">GSOC2020<i></i> week-2 coding period</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -151,12 +151,13 @@ trimming function is working correctly<br>
 <p>
 The same thing was validated for the other dataset.<br>
 Now let us apply the basic machine learning models .In this week I applied these models: <br>
-1)K Means <br>
-2.Agglomerative Clustering <br>
-3)Birch DBSCAN<br>
-4)Mean shift <br>
-5)Optics <br>
-6)Gaussian Mixture<br> 
+1)K Means (requires number of clusters)<br>
+2.Agglomerative Clustering  (requires number of clusters but not necessary)<br>
+3)Birch (requires number of clusters)<br>
+4)DBSCAN<br>
+5)Mean shift <br>
+6)Optics <br>
+7)Gaussian Mixture(requires number of clusters)<br> 
 
 We have 3 datasets as of now a)Ideology 200 ms b)Muslim c)Ideology 5 word , for each dataset I apply these models on a) complete data b)pca transformed c)T-SNE transformed<br> 
 
@@ -191,19 +192,29 @@ The abbrevations I have taken are <br>
   8.Recall ->R <br>
   9.Precision ->P <br>
 
-
-
+<p> Lets see the results of audio clustering </p>
+<p> In the case of audio data we have the knowledge of the ground truth labels so the Extrinsic evlauation metric will be used </p>
+<p> The source code can be found in this link</p>
 <a href="https://github.com/Himani2000/GSOC_2020/blob/master/Audio_Clustering_Models.ipynb">https://github.com/Himani2000/GSOC_2020/blob/master/Audio_Clustering_Models.ipynb</a><br>
 
+<p><b> Ideology 200 ms dataset</b></p>
+
+<p> <b>One of the most important thing to note here is that I have provied the number of cluster parameter as 2 in the case of  K-means,Agglomerative , Birch, 
+and gaussian mixture since there are 2 sounds(aI and EE) and the DBSCAN, mean shift and OPTICs find cluster by themselves </b>
+</p>
 <img src="images/ideology_200_1.png" alt="" class="img-fluid"><br><br>
 <img src="images/ideology_200_3.png" alt="" class="img-fluid"><br><br>
 <img src="images/ideology_200_2.png" alt="" class="img-fluid"><br><br>
 
+<p><b>Muslim dataset</b></p>
+<p> <b>One of the most important thing to note here is that I have provied the number of cluster parameter as 5  in the case of  K-means,Agglomerative , Birch, 
+and gaussian mixture since there are 2 sounds(u and A) and 3 other labels (misaligned, some other and cant decide ) and the DBSCAN, mean shift and OPTICs find cluster by themselves </b>
+</p>
 <img src="images/muslim_1.png" alt="" class="img-fluid"><br><br>
 <img src="images/muslim_2.png" alt="" class="img-fluid"><br><br>
 <img src="images/muslim_3.png" alt="" class="img-fluid"><br><br>
 
-
+<p><b>Ideology five word dataset</b></p>
 <img src="images/ideology_5_1.png" alt="" class="img-fluid"><br><br>
 <img src="images/ideology_5_2.png" alt="" class="img-fluid"><br><br>
 <img src="images/ideology_5_3.png" alt="" class="img-fluid"><br><br>
@@ -211,30 +222,38 @@ The abbrevations I have taken are <br>
 
 </p>
 
-<p> Lets get started with the Image clustering 
+<p> Lets get started with the <b>Image clustering </b></p>
+<p> In the case of image data we  do not have the knowledge of the ground truth labels so the Intrinsic evlauation metric will be used </p>
 
-1)In the <b> ideology dataset</b> the resulst of agglomerative clustering:<br>
+<p>1)In the <b> ideology dataset</b> the resulst of agglomerative clustering:</p><br>
+
 <img src="images/ideology_images_agg.png" alt="" class="img-fluid"><br><br>
 <img src="images/ideology_images_agg_2.png" alt="" class="img-fluid"><br><br>
 
 
-2)In the ideology DBSCAN results returned only 1 cluster and all the metrics required more than one cluster to evaluate thus DBSCAN does not worked in this.<br>
+<p>2)In the ideology DBSCAN results returned only 1 cluster and all the metrics required more than one cluster to evaluate thus DBSCAN does not worked in this.</p><br>
 
 
+<p>3)Mean Clustering results:</p>
 
-3)In the muslim dataset the aaglomerative clustering results:<br>
+<p>4)In the muslim dataset the aaglomerative clustering results:</p><br>
 
 <img src="images/muslim_agg_1.png" alt="" class="img-fluid"><br><br>
 <img src="images/muslim_agg_2.png" alt="" class="img-fluid"><br><br>
 
-4)In the muslim dataset the Mean shift clustering results:
+<p>5)In the muslim dataset the Mean shift clustering results:</p>
 <img src="images/muslim_mean1.png" alt="" class="img-fluid"><br><br>
 <img src="images/muslim_mean2.png" alt="" class="img-fluid"><br><br>
 
 
-5)In the Muslim dataset DBSCAN  and OPTICS both results returned only 1 cluster and all the metrics required more than one cluster to evaluate thus DBSCAN does not worked in this.
+<p>6)In the Muslim dataset DBSCAN  and OPTICS both results returned only 1 cluster and all the metrics required more than one cluster to evaluate thus DBSCAN does not worked in this.</p>
 
 </p>
+
+<p><b> Things to be added in the  this blog </b></p>
+<p>1.Mean ckustering results for ideology which is getting trained right now(taking so much time)</p>
+<p>2.Cluster visualizations </p>
+<p>3.Ideology dataset results visualizations </p>
 
   </p>
 
