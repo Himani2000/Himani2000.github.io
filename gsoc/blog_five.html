@@ -42,6 +42,44 @@ li{
     overflow-y: scroll;
     overflow-x:hidden;
 }
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
 
   </style>
   </head>
@@ -191,6 +229,121 @@ The abbrevations I have taken are <br>
   7.Accuracy ->A <br>
   8.Recall ->R <br>
   9.Precision ->P <br>
+ <p>A brief overview of the clustering evaluation techniques</p>
+<p><strong>1)Adjusted Rank Index </strong></p>
+<ul>
+<li>It requires ground truth labels and the cluster labels.</li>
+<li>It measures the similarity of the cluster assignments</li>
+<li>The range is from -1 to +1. The negative value denotes the bad clustering, zero denotes the random assignments and the positive denote the similar clustering while 1 is the best match score.</li>
+<li><strong>Mathematical intuition</strong><a href="https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation">Sklean-source</a></li>
+<img src="images/ari.png" alt="" class="img-fluid"><br><br>
+
+
+</ul>
+<p>&nbsp;</p>
+<p><strong>2)Mutual Information </strong></p>
+<ul>
+<li>It requires ground truth labels and the cluster labels.</li>
+<li>It measures the agreement of the cluster assignments</li>
+<li>The range is from 0 to +1. Zero score denotes the largely independent assignments while the positive denotes the significant agreement .</li>
+
+<li><strong>Mathematical intuition</strong><a href="https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation">Sklean-source</a></li>
+<img src="images/mi.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+<p>&nbsp;</p>
+<p>3)<strong>homogeneity</strong>:</p>
+<ul>
+<li>It requires ground truth labels and cluster labels</li>
+<li>Homogeneity describes the closeness of the clustering algorithm to this perfection. A perfect homogeneity means each cluster contains only members of a single class.</li>
+<li>The range is from zero to one</li>
+
+
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p><strong>4)completeness</strong>:</p>
+<ul>
+<li>It requires ground truth labels and cluster labels</li>
+<li>A perfect completeness means all members of a given class are assigned to the same cluster.</li>
+<li>The range is from zero to one</li>
+
+
+</ul>
+<p>&nbsp;</p>
+<p>5)<strong>V measure:</strong></p>
+<ul>
+<li>It requires ground truth labels and cluster labels</li>
+<li>It is the harmonic mean of homogeneity and completeness</li>
+<li>The range is from zero to one</li>
+<li><strong>Mathematical intuition</strong><a href="https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation">Sklean-source</a></li>
+<img src="images/hcv.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+<p><strong>6)Fowlkes-Mallows score:</strong></p>
+<ul>
+<li>It requires ground truth labels and cluster labels</li>
+<li>It is the geometric mean of pairwise precision and recall</li>
+<li>The range is from zero to one, values of exactly 0 indicate&nbsp;<strong>purely</strong>independent label assignments and positive denotes the significant agreement .</li>
+<li><strong>Mathematical intuition</strong><a href="https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation">Sklean-source</a></li>
+<img src="images/fmi.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+<p>&nbsp;</p>
+<p><strong>7)Silhouette coefficient:</strong></p>
+<ul>
+<li>No ground truth labels are required evaluation is performed using the model</li>
+<li>Silhouette Coefficient score relates to a model with better defined clusters</li>
+<li>The range is from -1 to +1, the negative score denotes the incorrect clustering , zero score denotes the overlapping clusters and positive score denotes the highly dense clustering</li>
+<li><strong>Mathematical intuition</strong><a href="https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation">Sklean-source</a></li>
+<img src="images/sil.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+<p><strong>8)Calinksi-Harabasz Index </strong></p>
+<ul>
+<li>No ground truth labels are required evaluation is performed using the model</li>
+<li>Calinksi-Harabasz score relates to a model with better defined clusters</li>
+<li>The score is higher when clusters are dense and well separated</li>
+<li><strong>Mathematical intuition</strong><a href="https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation">Sklean-source</a></li>
+<img src="images/calinksi.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+<p><strong>9)Davies-Bouldin Index </strong></p>
+<ul>
+<li>No ground truth labels are required evaluation is performed using the model</li>
+<li>This index signifies the average &lsquo;similarity&rsquo; between clusters, where the similarity is a measure that compares the distance between clusters with the size of the clusters themselves</li>
+<li>The score is higher when clusters are dense and well separated, zero is the lowest score</li>
+<li><strong>Mathematical intuition</strong><a href="https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation">Sklean-source</a></li>
+<img src="images/davies.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+<p><strong>10)Accuracy</strong></p>
+<ul>
+<li>Ground truth labels are required evaluation is performed using the model</li>
+<li>Accuracy metric that allows you to measure the total number of predictions a model gets right.</li>
+<li><strong>Mathematical intuition</strong></li>
+<img src="images/accuracy.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+<p><strong>11)Precision</strong></p>
+<ul>
+<li>Ground truth labels are required evaluation is performed using the model</li>
+<li> Precision talks about how precise/accurate your model is out of those predicted positive, how many of them are actual positive.</li>
+<li><strong>Mathematical intuition</strong></li>
+<img src="images/precision.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+<p><strong>12)Recall </strong></p>
+<ul>
+<li>Ground truth labels are required evaluation is performed using the model</li>
+<li> Recall actually calculates how many of the Actual Positives our model capture through labeling it as Positive</li>
+
+<li><strong>Mathematical intuition</strong></li>
+<img src="images/recall.png" alt="" class="img-fluid"><br><br>
+
+</ul>
+
+
+
 
 <p> Lets see the results of audio clustering </p>
 <p> In the case of audio data we have the knowledge of the ground truth labels so the Extrinsic evlauation metric will be used </p>
@@ -203,32 +356,74 @@ The abbrevations I have taken are <br>
 and gaussian mixture since there are 2 sounds(aI and EE) and the DBSCAN, mean shift and OPTICs find cluster by themselves </b>
 </p>
 <img src="images/ideology_200_1.png" alt="" class="img-fluid"><br><br>
+<p> <b>Conclusions</b> :My understanding is that if we look into the number of clusters then the mean shift and optics are performing better than the DBSCAN . Birch, Mean-shift and optics are  performing better in the "ideology-word "case whereas the Gaussian mixture is performing better in the "ideology-vowel" case . Overall the scores for each model are not good as most are close to zero(maximum can be 1) which is not a good indication</p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
+
 <img src="images/ideology_200_3.png" alt="" class="img-fluid"><br><br>
+
+<p> <b>Conclusions</b> Here the DBSCAN is able to find the two clusters in the "word" case and both DBSCAN and mean shift clustering is able to find thetwo clusters in the 
+"vowel" case </p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
+
 <img src="images/ideology_200_2.png" alt="" class="img-fluid"><br><br>
+
+<p> <b>Conclusions</b> DBSCAN, Mean shift and OPTICS are not able to find the clusters close to 2 in the both "word case" and the "vowel case" </p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
 
 <p><b>Muslim dataset</b></p>
 <p> <b>One of the most important thing to note here is that I have provied the number of cluster parameter as 5  in the case of  K-means,Agglomerative , Birch, 
 and gaussian mixture since there are 2 sounds(u and A) and 3 other labels (misaligned, some other and cant decide ) and the DBSCAN, mean shift and OPTICs find cluster by themselves </b>
 </p>
 <img src="images/muslim_1.png" alt="" class="img-fluid"><br><br>
+
+<p> <b>Conclusions  Note that here the number of clusters should be ideally close to five </b>None of Mean-Shift,DBSCAN and OPTICS   is able to find the five  clusters in the both  "word" and the "vowel"case </p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
+
 <img src="images/muslim_2.png" alt="" class="img-fluid"><br><br>
+
+
+<p> <b>Conclusions  Note that here the number of clusters should be ideally close to five </b>None of Mean-Shift,DBSCAN and OPTICS   is able to find the five  clusters in the both  "word" and the "vowel"case </p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
+
 <img src="images/muslim_3.png" alt="" class="img-fluid"><br><br>
+<p> <b>Conclusions  Note that here the number of clusters should be ideally close to five </b>None of Mean-Shift,DBSCAN and OPTICS   is able to find the five  clusters in the both  "word" and the "vowel"case </p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
 
 <p><b>Ideology five word dataset</b></p>
 <img src="images/ideology_5_1.png" alt="" class="img-fluid"><br><br>
+<p> <b>Conclusions</b>None of Mean-Shift,DBSCAN and OPTICS   is able to find the two   clusters in the both  "word" but Mean shift is able to find the two clusters in  the "vowel"case </p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
 <img src="images/ideology_5_2.png" alt="" class="img-fluid"><br><br>
+<p> <b>Conclusions </b>DBSCAN ais able to find the five  clusters in the both  "word" whole all DBSCAN, Mean-shift and OPTICS is able to find the two clisters in  the "vowel"case </p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
 <img src="images/ideology_5_3.png" alt="" class="img-fluid"><br><br>
+<p> <b>Conclusions </b>None of Mean-Shift,DBSCAN and OPTICS   is able to find the five  clusters in the both  "word" while the Mean-shift is able to find the two clusters in  the "vowel"case </p>
+<p> If we compare all the metrics of every model then the <b>"vowel" </b>case is performing significantly better than the <b>"word" </b>case </p>
+
 
 
 </p>
 
 <p> Lets get started with the <b>Image clustering </b></p>
+<p> The code can be found in <a href="https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering.ipynb">https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering.ipynb</a></p>
 <p> In the case of image data we  do not have the knowledge of the ground truth labels so the Intrinsic evlauation metric will be used </p>
 
 <p>1)In the <b> ideology dataset</b> the resulst of agglomerative clustering:</p><br>
 
 <img src="images/ideology_images_agg.png" alt="" class="img-fluid"><br><br>
 <img src="images/ideology_images_agg_2.png" alt="" class="img-fluid"><br><br>
+
+
+
+
 
 
 <p>2)In the ideology DBSCAN results returned only 1 cluster and all the metrics required more than one cluster to evaluate thus DBSCAN does not worked in this.</p><br>
@@ -453,6 +648,26 @@ and gaussian mixture since there are 2 sounds(u and A) and 3 other labels (misal
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+   <script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
   </body>
 </html>
