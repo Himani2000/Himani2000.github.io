@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week-3 </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    
+    p {
+  text-align: justify;
+  color:black;
+}
+li{
+	text-align: justify;
+  color:black; 	
+
+}
+ a:hover {
+  background-color: yellow;
+  color:blue;
+}
+.gist-container {
+ 
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+  </style>
+  </head>
+
+  <body>
+    
+	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">GSOC2020<i></i> week-3 coding period</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	        
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+
+   <section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 ftco-animate">
+          	<p class="mb-5">
+              <img src="https://images.yourstory.com/cs/wordpress/2018/03/coding-job.png?fm=png&auto=format" alt="" class="img-fluid">
+              <p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
+              Lets get started with week-3
+              </p>
+   </div> <!-- .col-md-8 -->
+          <div class="col-lg-3 sidebar pl-lg-5 ftco-animate">
+         <div class="sidebar-box ftco-animate">
+              <h3>Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/blog_one.png);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog-single.html">Week 1 -Setting up the CRWU-HPC</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> 8/5/2020</a></div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/blog_second.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="blog_second.html">Week 2 -Setting up Singularity container</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> 15/5/2020</a></div>
+                   
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+
+
+           
+          </div>
+
+      </div>
+    </section> <!-- .section -->
+
+
+
+
+   <section >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 ftco-animate">
+        
+        <p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
+        	My mentor and I decided the  <b>tasks</b> for this week given as  :<br>
+        	<ul>
+        	<li>Extract the formants</li>
+        	<li>Extract all the audio features and apply the algorithms</li>
+        	 <li>Apply the grid search method in all the algorithms used in the previous work</li>
+        	<li>Apply all the algorithms  with grid search in the image clustering (-extended script)</li>
+        	<li>Apply image preprocessing and feature extraction techniques and apply clustering models</li><br>
+</ul>
+
+    <p> <b>1. Formant Extraction </b></p>
+   
+  <p>A formant is defined as the concentration of a acoustic energy around a particular frequency in the speech wave. Roughly there is one formant in each 1000Hz of frequency band. See the image blue the red-lines show the formants , there are roughly 4 formants that are visible. The darker the formanr is the more energy it contains.</p>
+  <img src="images/formants_example.png">
+  <p><b>1.1 Extraction of the formants</b></p>
+
+<p><b>1.1.1 Case-1: Formants-LPC</b></p>
+<p>To find the best matching system we use a method of analysis called Linear Prediction.Linear prediction models the signal as if it were generated by a signal of minimum energy being passed through a purely-recursive IIR filter.</p>
+<p>Firstly I started with extracting the starting and ending time of the vowel sound from the audio using the textGrid file (please see week-2 blog to learn how to extract). I followed the matlab code for the extraction of the formants from the vowel sound</p><p><a style="color:blue" href="https://www.mathworks.com/help/signal/ug/formant-estimation-with-lpc-coefficients.html">Mathlab-code-Link</a></p> <p><a   style="color:blue" href="https://stackoverflow.com/questions/25107806/estimate-formants-using-lpc-in-python">python-code-Link</a></p>
+<p>The Two pre-processing steps are applied before lpc</p>
+<ol>
+<li>a) Windowing the speech using hamming window</li>
+<li>b) Applying the pre-emphasis filter</li>
+</ol>
+<p>To extract the lpc , we have to pass  the order the thumb rule for finding the order is order =2+(samling frequency/1000)</p>
+<p>Lpc function returns the prediction polynomial. To find the formant frequencies from the filter, we need to find the locations of the resonances that make up the filter.&nbsp; This involves treating the filter coefficients as a polynomial and solving for the roots of the polynomial.&nbsp;</p>
+
+<p><b>1.1.2  Case -2 Python-praat,</b></p> 
+<p>I used the praat-python library to extract the formants</b></p>
+<p><a  style="color:blue" href="https://parselmouth.readthedocs.io/en/stable/api_reference.html%3cdocumentation">parsel-mouth documentation Link</a></p>
+<p>Install using: <b>pip install praat-parselmouth</b></p>
+
+<p>Note that this library is pythonic interface to the internal Praat code so the same functions are used to extract the fromants in both praat-script file and the python file ,I used python  to extract the formants at three points:</p>
+<p>a)point-20 i.e 20% from the start of the vowel sound , calculated using the formula <b> start + ((end-start)*0.2) </b></p>
+<p>b)point 50 i.e 50% from the start of the vowel sound , calculated using the formula <b>start + ((end-start)*0.5)</b></p>
+<p>c)point 80 i.e 80% from the start of the vowel sound , calculated using the formula <b>end - ((end-start)*0.2) </b></p>
+
+<p>Sound_to_Formant_burg  function was used to extract the formants</p>
+<p><a  style="color:blue" href="https://www.fon.hum.uva.nl/praat/manual/Sound__To_Formant__burg____.html">Sound__To_Formant__burg_ documentation Link </a></p>
+<p>The algorithm that is used by the praat is :</p>
+<p>The sound will be resampled to a sampling frequency of twice the value of Maximum formant. After this, pre-emphasis is applied .For each analysis window, Praat applies a Gaussian-like window, and computes the LPC coefficients .The number of "poles" that this algorithm computes is twice the Maximum number of formants that's why you can set the Maximum number of formants to any multiple of 0.5).</p>
+
+<p>The python file  for the formant extraction can be found at :</p><a  href="https://github.com/Himani2000/GSOC_2020/blob/master/Formant_Extraction.py">Formant Extraction.py Link</a><br>
+<p> The jupyter notebook can be found here at :<a href="https://github.com/Himani2000/GSOC_2020/blob/master/Formant_Extraction.ipynb"> Formant Extraction ipynb link</a></p>
+
+<p><b>2 Data visualization </b></p>
+<p> It is best to visualize the distribution of the data before applying the clustering algorithms</p>
+<p> Fig-1 shows the distribution of the muslim-data, here we have 5 labels.</p>
+<p>To visualize the data I plotted with the combinations between the three formants , pca transformed and the tsne transformed of all the formants.</p>
+<p>The label distribution of the dataset is :</p>
+<img src="images/muslim_labels.png">
+          	
+<div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/muslim_formant20.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<br><br>
+        	<p><b>Formant-20 Descripton from figure </b></p>
+        	<p>
+        		Label 0 (red)represents "a" sound while label 4(cyan) represents the "u" sound. For the formant 1 and 2 the red and cyan is less scattered. All the labels are not much seperated from each other, they all are overlapping and are highly densed.
+        		<br>
+        		Out of all the formants , formant-1 is playing an important role as the clusters are less scattered when formant-1 is involved.
+        		<br>
+
+        		t-SNE representation is very much scattered.
+
+        	</p>	
+
+        	
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/muslim_formant50.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<br><br>
+        	<p>Formant-50 Descripton from figure</p>
+        <p>
+        	In this the label-4(cyan) is less scattered than it was in the formant-20 in all the representations except t-SNE.
+        	<br>
+        	The label-0(red) is more densely clustered in the formant1-formant2 and PCA transformation.
+        	<br>
+        	t-SNE representation is very much scattered.
+        	</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/muslim_formant80.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<br><br>
+        	<p>Formant-80 Descripton from figure </p>
+        	<p>
+
+        	<br>
+
+        	t-SNE representation is very much scattered and to some extent PCA is also more scattered as compared to formant20 and formant50.
+        		</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/muslim_formantlpc.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-lpc Descripton from figure </p>
+        		<p>
+        	<br>
+        	t-SNE and PCA representation is very much scattered
+</p>
+        </div>
+   </div>
+ </div>
+
+<p> Ideology 200 ms dataset</p>
+<p>The label distribution of the dataset is :</p>
+<img src="images/ideology1_labels.png">
+<div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology1_formant20.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-20 Descripton from figure </p>
+        	<p>
+        	Label 0 (red)represents "ai" sound and Label 1(blue) represents "ee" sound.
+        	Label 2 does not represent anything here.
+        	<br>
+        	For all the representations the data is highly densed and  no two  significant clusteres  are visible. In the formant 2 and formant 3 figure the label-2(blue) is less scattered.
+        	</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology1_formant50.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-50 Descripton from figure </p>
+        	<p>
+        	For all the representations the data is highly densed and  no two  significant clusteres  are visible. In the formant 2 and formant 3 figure  and PCA tranformation the label-2(blue) is less scattered.
+        	<br>
+        </p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology1_formant80.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-80 Descripton from figure </p>
+        	<p>The label-2 is more clustered in formant1 -formant 2 and formant1-formant3.<br>
+</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology1_formantlpc.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-lpc Descripton from figure </p>
+        	<p>
+        	The Label-1(blue) is less scattered in formant1-formant2 and in formant1 and formant3.
+</p>
+        </div>
+   </div>
+ </div>
+
+<p> Ideology five word dataset</p>
+<p>The label distribution of the dataset is :</p>
+<img src="images/ideology2_labels.png">
+<div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology2_formant20.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-20 Descripton from figure </p>
+        	<p>
+        	The label 1(blue) respresents "ai" sound , label 2(green) represents "ee" and label 0(red) reprsents those samples which are to be deleted(misaligned)
+        	I kept label-3 in the visualization just to see how it is distributed.<br>
+        	In  this the label 2(green) is visible as a distinct cluster and thus is less scattered in all the representations.<br>
+</p>
+        	
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology2_formant50.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-50 Descripton from figure </p>
+        	<p>
+        	In  this the label 2(green) is visible as a distinct cluster and thus is less scattered in all the representations also label 1(blue)
+        	is more densed.
+</p>
+        	
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology2_formant80.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-80 Descripton from figure </p>
+<p>
+        	In  this the label 2(green) is scattered compared to above two representations.<br>
+</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology2_formantlpc.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-lpc Descripton from figure </p>
+        		<p>
+	        	In  this the label 2(green) is visible as a distinct cluster and thus is less scattered in all the representations<br>
+        </p>
+        </div>
+   </div>
+ </div>
+
+<p><b>3 . Audio Clustering Results </b></p>
+<p>The python file code for the audio clustering can be found here--><a href="https://github.com/Himani2000/GSOC_2020/blob/master/Clustering_models.py"> Clustering python file Link</a></p>
+<p>The jupyter notebook code for the audio clustering can be found here--><a href="https://github.com/Himani2000/GSOC_2020/blob/master/Clustering_models.ipynb"> Clustering jupyter notebook Link </a></p>
+
+<p> To obtain the results this week I hypertune the machine learning models using grid search. In grid search we pass various different parameters for the model then 
+the grid search internally make the combinations of the parameters and return us the best perfroming set of parameter. It find the best parameter based on the scoring 
+function . I used the silloutte coefficient as a scoring function.</p>
+
+<p>1)K Means (requires number of clusters)<br>
+2.Agglomerative Clustering <br>
+3)Birch (requires number of clusters)<br>
+4)DBSCAN<br>
+5)Mean shift <br>
+6)Optics <br>
+7)Gaussian Mixture(requires number of clusters)<br> </p>
+<p>The only change is I removed the number of cluster parameters from the agglomerative clustering thus now we have Agglomerative ,DBSCAN,Optics and mean shift as the clustering algorithms which do not have any pre-defined number of cluster parameters. We will be analysing the number of clusters in these four algorithms mainly</p>
+
+
+<p> For understanding the evaluation metrics , please see the week-2 blog post</p>
+
+
+
+<p>Lets start with the ideology 200 ms results </p>
+
+
+<div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology1_formant20_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-20</p>
+        		<p>
+        	DBSCAN,Mean-shift and Agglomerative clustering are able to to find the two clusters , while OPTICS found 3.
+        	<br>
+        	The score are less and close to zero in except FM and accuracy.
+        	</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology1_formant50_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-50</p>
+<p>
+        	DBSCAN and Agglomerative clustering are able to to find the two clusters , while OPTICS found 3 and Mean-shift 4.
+        	<br>
+        	The score are less as compared to formant-20 and close to zero in except FM and accuracy.<br>
+   </p>     	
+
+        	
+
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology1_formant80_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+       
+        	<p>Formant-80</p>
+       <p>
+        		DBSCAN ,OPTICS , Mean-shift and Agglomerative clustering are able to to find the two clusters.
+        	<br>
+        	The score are less  and close to zero in except FM and accuracy.<br>
+</p>
+
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology1_formantlpc_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-lpc</p>
+    <p>    			DBSCAN ,OPTICS , Mean-shift and Agglomerative clustering are able to to find the two clusters.
+        	<br>
+        	The score are less  and close to zero in except FM and accuracy.<br>
+</p>
+
+        </div>
+   </div>
+ </div>
+
+
+
+<p> Ideology five word results</p>
+
+
+<div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology2_formant20_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-20</p>
+    <p>    	DBSCAN and Agglomerative clustering are able to to find the two clusters , while OPTICS found 3 and Mean-shift 4.
+        	<br>
+        	The score are less as compared to formant-20 and close to zero in except FM.<br>	
+       </p> 	
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology2_formant50_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-50</p>
+        <p>	DBSCAN , Agglomerative clustering and OPTICS are able to to find the two clusters , while  Mean-shift found 3.
+        	<br>
+        	The score are  very less as compared to formant-20 and close to zero in except FM .<br>
+        	</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology2_formant80_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-80</p>
+        	
+        	<p>DBSCAN , Agglomerative clustering and OPTICS are able to to find the two clusters , while  Mean-shift found 4.
+        	<br>
+        	The score are  very less as compared to formant-20 and close to zero in except FM .<br>
+        </p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/ideology2_formantlpcresult.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-lpc</p>
+        	
+        	<p>
+        	DBSCAN , Agglomerative clustering and OPTICS are able to to find the two clusters , while  Mean-shift found 4.
+        	<br>
+        	The score are  very less as compared to formant-20 and close to zero in except FM .<br>
+        </p>
+        </div>
+   </div>
+ </div>
+
+
+<p> Muslim results</p>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/muslim_formant20_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-20</p>
+        <p>
+        	DBSCAN , Agglomerative clustering, Mean-shift and OPTICS are able to to find the two clusters. This shows that it is somewhere clustering it around two sounds.
+        	<br>
+        	The score are  very less as compared to formant-20 and close to zero in except FM .<br>
+        </p>	
+        </div>
+   </div>
+ </div>
+<p>Ideally there the algorithms should predict the 5 clusters </p>
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/muslim_formant50_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-50</p>
+        	
+        	<p>None from DBSCAN , Agglomerative clustering, Mean-shift and OPTICSc lustering algorithms are able to  predict five clusters 
+
+        	<br>
+        	The score are  very less as compared to formant-20 and close to zero in except FM .<br>
+        	</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/muslim_formant80_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-80</p>
+        	<p>DBSCAN , Agglomerative clustering, and OPTICS are able to to find the two clusters. Mean shift found four clusters that is close to five.
+        	<br>
+        	The score are  very less as compared to formant-20 and close to zero in except FM .<br>
+</p>
+        </div>
+   </div>
+ </div>
+
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+
+          	<img src="images/muslim_formantlpc_result.png">
+        </div>
+        <div class="col-lg-4 ftco-animate">
+        	<p>Formant-lpc</p>
+    <p>    	DBSCAN , Agglomerative clustering, Mean-shift and OPTICS are able to to find the two clusters. This shows that it is somewhere clustering it around two sounds.
+        	<br>
+        	The score are  very less as compared to formant-20 and close to zero in except FM .<br>
+       </p>
+        </div>
+   </div>
+ </div>
+
+<p> <b> 4 Image clustering </b></p>
+
+<p>The python file code for the audio clustering can be found here--><a href="https://github.com/Himani2000/GSOC_2020/blob/master/image_clustering_v2_sc.py"> Image Clustering python file Link</a></p>
+<p>4.1 Results of Muslim dataset</p>
+<img src="images/muslim_image_results.png">
+<p><b>4.1.1 Agglomerative Clustering </b></p>
+<p>It returned total 4 labels , label 0 being 239 images, the following images came under label 0(almost all) </p>
+
+<img src="images/muslim_image_agg.png">
+<p><b>4.1.1 DBSCAN  </b></p>
+<p>It returned total 2 labels , label 0 being 137 images and label -1 being 105 images , the following images came under label 0(almost all) </p>
+
+<p>Label 0</p>
+<img src="images/muslim_image_dbscan.png">
+<p>Label- -1 </p>
+<img src="images/muslim_image_dbscan2.png">
+       </p> 	
+
+
+
+<p><b>4.1.3 Mean shift clustering  </b></p>
+<p>It returned total 3 labels , label 1  being 240 </p>
+
+<p>Label 1</p>
+<img src="images/muslim_image_mean.png">
+
+<p><b>4.1.4 Optics returned all images as a one label</b></p>
+<img>
+
+
+
+
+
+
+       </div> <!-- .col-md-8 -->
+          
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+   <script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+  </body>
+</html>
