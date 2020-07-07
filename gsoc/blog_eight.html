@@ -228,12 +228,12 @@ d)U-map reduced features<br>
 
  </table>
 
-
+ <p  style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
 This week we will see a lot of image clustering results . I will advised  to go through all the files, it will be interesting to see the results.
 
 Starting with the Hierarchical clustering results<br>
 
-
+</p>
 
 
 
@@ -328,7 +328,8 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""></a></td>
      <td><a style="color:blue" href=""> </a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
-  </tr>
+  </tr></table>
+  <br><br>
 Density based results<br>
  <p  style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
   <table  style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
@@ -420,12 +421,24 @@ Density based results<br>
 
  
   
-</table>
+</table><br><br>
         </p>
 <br><br>
-      <p><b>Getting started with the Bio-metric clustering </b><br>
-        I started with the face clustering. First I extracted the face encodings (128 d vector representations) from the images using the face-recognition library in python.
-        The feature extraction code can be found here. I performed the DBSCAN algorithm with and without grid search, both performed good but with grid search is better<br>
+      <p><b>Getting started with the Audio  clustering </b><br>
+       In the Audio clustering I extracted all the possible audio fetaures (listed in the table below)and then I ran all the clustering models in four cases:
+       <br>
+       a)Actual features<br>
+       b)PCA dimensionality reduction<br>
+       c)t-Sne dimensionality reduction<br>
+       d)Umap dimensionality reduction<br>
+
+       The feature extraction code can be found here <a style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/Feature_extraction/Audio/FeatureExtraction_pipeline.ipynb">https://github.com/Himani2000/GSOC_2020/blob/master/Feature_extraction/Audio/FeatureExtraction_pipeline.ipynb</a>
+     </p>
+
+
+
+
+
 
          <table  style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
   <tr>
