@@ -195,7 +195,7 @@ tr:hover {background-color:#9ef7f6;}
     
 I partioned the algorithms into two categories 1)Hierarchical based 2) Density based <br>
 For every algorithm i ran with <br>
-a)All image pretrained model extracted features<br>
+a)t-SNE+PCA reduced<br>
 b)PCA reduced features<br>
 c)t-sne reduced features<br>
 d)U-map reduced features<br>
@@ -246,16 +246,19 @@ Starting with the Hierarchical clustering results<br>
  <table  style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
   <tr>
     <th>Pre-trained model</th>
-    <th>All features</th>
+    
     <th>pca reduced</th>
     <th>t-SNE reduced</th>
+    <th>PCA+t-SNE reduced</th>
+
     <th>U-map reduced</th>
   </tr>
   <tr>
     <td>VGG16</td>
-    <td><a style="color:blue" href=""></a></td>
+  
     <td><a style="color:blue" href="https://1drv.ms/b/s!AmFV38NxecAPgxeGo84-lsjkd-VO">Hierarchical-image-results-pca-vgg16.slides.html(One drive Link)</a></td>
      <td><a style="color:blue" href="https://1drv.ms/b/s!AmFV38NxecAPgxD4Wjb_NTq6f4FA">Hierarchical-Image-Clustering-vgg16-tsne.pdf(One drive link) </a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html"> Hierarchical-Image-clustering-umap.html</a></td>
   </tr>
    <tr>
@@ -263,6 +266,7 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""></a></td>
     <td><a style="color:blue" href="https://1drv.ms/b/s!AmFV38NxecAPgwsybx5tHIh0qY5b">Hierarchical-Image-Cluster-results-pca-vgg19.pdf(One-drive link) </a></td>
      <td><a style="color:blue" href="Hierarchical-Image-Cluster-results-tsne-vgg19.slides.html">Hierarchical-Image-Cluster-results-tsne-vgg19.slides.html </a></td>
+       <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr>
    <tr>
@@ -270,6 +274,7 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""> </a></td>
     <td><a style="color:blue" href="Hierarchical-Image-Cluster-results-pca-resnet50.html">Hierarchical-Image-Cluster-results-pca-resnet50.html</a></td>
      <td><a style="color:blue" href="Hierarchical-Image-Cluster-results-tsne-resnet50.slides.html">Hierarchical-Image-Cluster-results-tsne-resnet50.slides.html  </a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr>
    <tr>
@@ -278,6 +283,7 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href="Hierarchical-Image-Cluster-results-pca-inceptionv3.html">Hierarchical-Image-Cluster-results-pca-inceptionv3.html </a></td>
    
      <td><a style="color:blue" href="Hierarchical-Image-Cluster-results-tsne-inceptionv3.slides.html">Hierarchical-Image-Cluster-results-tsne-inceptionv3.slides.html </a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr>
    <tr>
@@ -285,6 +291,7 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""> </a></td>
     <td><a style="color:blue" href="https://1drv.ms/b/s!AmFV38NxecAPgw1VspywTVOA33uo">Hierarchical-Image-Cluster-results-pca-mobilenet.pdf(one drive  link) </a></td>
      <td><a style="color:blue" href=""></a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr>
    <tr>
@@ -292,6 +299,7 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""> </a></td>
     <td><a style="color:blue" href="https://1drv.ms/b/s!AmFV38NxecAPgw5p2_Pyorz0m571">Hierarchical-Image-Cluster-results-pca-inception-resnet.pdf (One drive link)</a></td>
      <td><a style="color:blue" href=""></a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html</a></td>
   </tr>
    <tr>
@@ -299,6 +307,7 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""> </a></td>
     <td><a style="color:blue" href="https://1drv.ms/b/s!AmFV38NxecAPgw9FUH70GwESxw1c">Hierarchical-Image-Cluster-results-pca-densenet121.pdf(One drive link) </a></td>
      <td><a style="color:blue" href=""> </a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr>
    <tr>
@@ -306,6 +315,7 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""> </a></td>
     <td><a style="color:blue" href=""></a></td>
      <td><a style="color:blue" href=""> </a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr>
 
@@ -314,6 +324,7 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""> </a></td>
     <td><a style="color:blue" href=""> </a></td>
      <td><a style="color:blue" href=""> </a></td>
+       <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr>
  <tr>
@@ -321,12 +332,14 @@ Starting with the Hierarchical clustering results<br>
     <td><a style="color:blue" href=""> </a></td>
     <td><a style="color:blue" href="https://1drv.ms/b/s!AmFV38NxecAPgxETg3I4KZHXix4b">Hierarchical-Image-Cluster-results-pca-xceptionet.pdf(One drive link)</a></td>
      <td><a style="color:blue" href=""> </a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr>
     <td>Gray scale image</td>
     <td><a style="color:blue" href=""> </a></td>
     <td><a style="color:blue" href=""></a></td>
      <td><a style="color:blue" href=""> </a></td>
+        <td><a style="color:blue" href=""></a></td>
       <td><a style="color:blue" href="Hierarchical-Image-clustering-umap.html">Hierarchical-Image-clustering-umap.html </a></td>
   </tr></table>
   <br><br>
@@ -335,7 +348,7 @@ Density based results<br>
   <table  style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
   <tr>
     <th>Pre-trained model</th>
-    <th>All features</th>
+    
     <th>pca reduced</th>
     <th>t-SNE reduced</th>
     <th>PCA + t-SNE reduced</th>
