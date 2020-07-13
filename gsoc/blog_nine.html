@@ -180,26 +180,26 @@ tr:hover {background-color:#9ef7f6;}
 		<b>Section-1 Automating the results generation  and the complete clustering task till now</b>
 		The first task for this week was to automate the clustering task till the result generation step. My mentor suggested a great idea for the generation step, which is instead of saving the pdf of all the models let us save all text files containing the number of clusters found for(flynn, trump , khewsis ) for example and put a filter such as if the number of clusters are greater than 2200 and less than 30 , flynn clusters more than 5, trump clusters more than 4 and khwesis clusters more than 3 then not save the pdf. <br><br>
 
-		The python script can be found here <br><a href="https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering/image_results_utils.py">https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering/image_results_utils.py</a><br>
+		The python script can be found here <br><a style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering/image_results_utils.py">https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering/image_results_utils.py</a><br>
 
 
 
 		The  automation of all the clustering methods can be found in this shell script,<br>
-		<a href="https://github.com/Himani2000/GSOC_2020/blob/master/clustering-models/clustering_shell.sh">https://github.com/Himani2000/GSOC_2020/blob/master/clustering-models/clustering_shell.sh</a>
+		<a style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/clustering-models/clustering_shell.sh">https://github.com/Himani2000/GSOC_2020/blob/master/clustering-models/clustering_shell.sh</a>
 
 
 		<br>
 
 		To my surprise out of around 120 models files , 3 passed the filter and those  text and pdf files  were: <br>
 
-		1. text file:<a href="ideology_model_mobilenet-pca-tsne_dbscan_labels.txt">ideology_model_mobilenet-pca-tsne_dbscan_labels.txt</a><br>
-		   pdf file:<a href="https://drive.google.com/file/d/1Vl-wKg1RUN-w3WRkB1oMr6fV85lo9T-Q/view?usp=sharing">ideology_model_mobilenet-pca-tsne_dbscan_labels.pdf</a><br>
+		1. text file:<a  style="color:blue"href="ideology_model_mobilenet-pca-tsne_dbscan_labels.txt">ideology_model_mobilenet-pca-tsne_dbscan_labels.txt</a><br>
+		   pdf file:<a style="color:blue" href="https://drive.google.com/file/d/1Vl-wKg1RUN-w3WRkB1oMr6fV85lo9T-Q/view?usp=sharing">ideology_model_mobilenet-pca-tsne_dbscan_labels.pdf</a><br>
 		   <br><br>
-		2. text file:<a href="ideology_model_resnet50-umap_dbscan_labels.txt">ideology_model_resnet50-umap_dbscan_labels.txt</a><br>
-		   pdf file:<a href="https://drive.google.com/file/d/19MXmYWP5s3tR1fwNPgggS7et-DCze_FI/view?usp=sharing">ideology_model_resnet50-umap_dbscan_labels.pdf</a><br>
+		2. text file:<a style="color:blue"  href="ideology_model_resnet50-umap_dbscan_labels.txt">ideology_model_resnet50-umap_dbscan_labels.txt</a><br>
+		   pdf file:<a style="color:blue" href="https://drive.google.com/file/d/19MXmYWP5s3tR1fwNPgggS7et-DCze_FI/view?usp=sharing">ideology_model_resnet50-umap_dbscan_labels.pdf</a><br>
 		   <br><br>
-		3. text file:<a href="ideology_model_resnet50-umap_mean_shift_labels.txt">ideology_model_resnet50-umap_mean_shift_labels.txt</a><br>
-		   pdf file: <a href="https://drive.google.com/file/d/1UHRxFDQb139FtLbu2ldef1_iVuJZ7wL6/view?usp=sharing">ideology_model_resnet50-umap_mean_shift_labels.pdf</a><br>
+		3. text file:<a style="color:blue" href="ideology_model_resnet50-umap_mean_shift_labels.txt">ideology_model_resnet50-umap_mean_shift_labels.txt</a><br>
+		   pdf file: <a style="color:blue" href="https://drive.google.com/file/d/1UHRxFDQb139FtLbu2ldef1_iVuJZ7wL6/view?usp=sharing">ideology_model_resnet50-umap_mean_shift_labels.pdf</a><br>
       	<br><br>
 
       	<b>Section -2 Running the models in the crop version of the images</b>
@@ -217,9 +217,41 @@ tr:hover {background-color:#9ef7f6;}
 			b)Perceptual hashing (pHash)<br>
 			c)Difference hashing (dHash)<br>
 			d)Wavelet hashing (wHash)<br>
-			e)HSV color hashing (colorhash)<br>
+			
 			The implementation of all these algorithms are provided in the imagehash library(python)<br>
-			<a href="https://github.com/JohannesBuchner/imagehash">https://github.com/JohannesBuchner/imagehash</a><br>
+			<a style="color:blue"  href="https://github.com/JohannesBuchner/imagehash">https://github.com/JohannesBuchner/imagehash</a><br>
+
+			I came up with the two possible approaches 1)with and 2)Without threshold <br>
+			1. In the first method , I simply computed the hash using the above mentioned hashing techniques  and check if the hashes are similar then the images are similar (near duplicates )<br>
+			For the normal images ::<br>
+			<a style="color:blue" href="ideology_image_dataset_avergae_hash.pdf">ideology_image_dataset_avergae_hash.pdf</a><br>
+			<a style="color:blue" href="ideology_image_dataset_d_hash.pdf">ideology_image_dataset_d_hash.pdf</a><br>
+			<a style="color:blue" href="ideology_image_dataset_p_hash.pdf">ideology_image_dataset_p_hash.pdf</a><br>
+			<a style="color:blue" href="ideology_image_dataset_w_hash.pdf">ideology_image_dataset_w_hash.pdf</a><br>
+
+			For the cropped images ::<br>
+			<b>Pending</b>
+
+			The code can be found here <br>
+			<a style="color:blue"href="https://github.com/Himani2000/GSOC_2020/blob/master/Image_hashing/image_hashing.py">https://github.com/Himani2000/GSOC_2020/blob/master/Image_hashing/image_hashing.py</a><br>
+
+			2.I did not find the results good as some are too sensitive i.e exact duplicates so I went with the second method that is the image hashing with the threshold, which is more like a <b>image search engine technique</b>, basically  I computed the image hashes for all the images , then arrange them in the tree manner (VP-tree) to make the run time complexity from linear (O(n)) to O(logn). Then I pass the query image, computed the hash for the query image and pass the threshold  (hamming distance ) that searches upto that distance in the vp-tree, the hamming distance is the number of bits that differes in both the hashes 
+			<br>
+
+			<b>Testing the model in the cropped images </b> <br>
+			Suppose I pass one of the images of <b>flyn as a query images</b> , I passed the threshold as 12 (hamming distance) then I got :<br>
+			1. For the ahash <br>
+			<img src="images/crop_ahash_flyn.png" width="700" height="600"><br><br>
+
+			2.For the phash<br>
+			resulted images less than 10 :( <br>
+			3.For the dhash<br>
+			resuled images less than 10 :(<br>
+
+
+			4. For the whash<br>
+			<img src="images/crop_whash_flyn.png" width="700" height="600"><br><br>
+
 
 
 
