@@ -1,0 +1,13 @@
+Writing for the file -->  ideology_model_mobilenet-pca-tsne_dbscan_labels 
+Total clusters found -->644
+Number of images in trump cluster-> 1-> 12 
+Number of images in trump cluster-> 2-> 34 
+Number of images in flynn cluster-> 1-> 4 
+Number of images in flynn cluster-> 2-> 8 
+Number of images in flynn cluster-> 3-> 52 
+Number of images in khewsis cluster->1-> 16 
+Number of images in khewsis cluster->2-> 3 
+Number of images in flynn cluster-> 4-> 5 
+Total clusters for trump rnc is 2
+Total clusters for flynn is 4
+Total clusters for khewsis rnc is 2

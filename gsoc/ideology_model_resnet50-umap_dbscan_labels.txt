@@ -1,0 +1,13 @@
+Writing for the file -->  ideology_model_resnet50-umap_dbscan_labels 
+Total clusters found -->345
+Number of images in trump cluster-> 1-> 12 
+Number of images in trump cluster-> 2-> 32 
+Number of images in trump cluster-> 3-> 2 
+Number of images in flynn cluster-> 1-> 14 
+Number of images in flynn cluster-> 2-> 35 
+Number of images in khewsis cluster->1-> 19 
+Number of images in flynn cluster-> 3-> 18 
+Number of images in flynn cluster-> 4-> 2 
+Total clusters for trump rnc is 3
+Total clusters for flynn is 4
+Total clusters for khewsis rnc is 1

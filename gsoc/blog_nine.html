@@ -177,7 +177,7 @@ tr:hover {background-color:#9ef7f6;}
           <li>3. Starting with the image duplicacy </li>
 </ul>
 </p><p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
-	
+		<b>Section-1 Automating the results generation  and the complete clustering task till now</b>
 		The first task for this week was to automate the clustering task till the result generation step. My mentor suggested a great idea for the generation step, which is instead of saving the pdf of all the models let us save all text files containing the number of clusters found for(flynn, trump , khewsis ) for example and put a filter such as if the number of clusters are greater than 2200 and less than 30 , flynn clusters more than 5, trump clusters more than 4 and khwesis clusters more than 3 then not save the pdf. <br><br>
 
 		The python script can be found here <br><a href="https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering/image_results_utils.py">https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering/image_results_utils.py</a><br>
@@ -186,6 +186,43 @@ tr:hover {background-color:#9ef7f6;}
 
 		The  automation of all the clustering methods can be found in this shell script,<br>
 		<a href="https://github.com/Himani2000/GSOC_2020/blob/master/clustering-models/clustering_shell.sh">https://github.com/Himani2000/GSOC_2020/blob/master/clustering-models/clustering_shell.sh</a>
+
+
+		<br>
+
+		To my surprise out of around 120 models files , 3 passed the filter and those  text and pdf files  were: <br>
+
+		1. text file:<a href="ideology_model_mobilenet-pca-tsne_dbscan_labels.txt">ideology_model_mobilenet-pca-tsne_dbscan_labels.txt</a><br>
+		   pdf file:<a href="https://drive.google.com/file/d/1Vl-wKg1RUN-w3WRkB1oMr6fV85lo9T-Q/view?usp=sharing">ideology_model_mobilenet-pca-tsne_dbscan_labels.pdf</a><br>
+		   <br><br>
+		2. text file:<a href="ideology_model_resnet50-umap_dbscan_labels.txt">ideology_model_resnet50-umap_dbscan_labels.txt</a><br>
+		   pdf file:<a href="https://drive.google.com/file/d/19MXmYWP5s3tR1fwNPgggS7et-DCze_FI/view?usp=sharing">ideology_model_resnet50-umap_dbscan_labels.pdf</a><br>
+		   <br><br>
+		3. text file:<a href="ideology_model_resnet50-umap_mean_shift_labels.txt">ideology_model_resnet50-umap_mean_shift_labels.txt</a><br>
+		   pdf file: <a href="https://drive.google.com/file/d/1UHRxFDQb139FtLbu2ldef1_iVuJZ7wL6/view?usp=sharing">ideology_model_resnet50-umap_mean_shift_labels.pdf</a><br>
+      	<br><br>
+
+      	<b>Section -2 Running the models in the crop version of the images</b>
+
+      	The main aim was to crop the headings from the images, since the heading comes at  bottom we can simply cut some part from the bottom ,we crop  30 % of the image from  bottom. In this way headings were removed from all the images.<br>
+
+      	To my surprise <b>NONE </b> of the models passed the filter for the cropped  images, this was not expected but we noticed that for the crop images the clusters were more sensitive .<br><br>
+      	<br>
+
+         <b>Section -3 Starting with the image duplicacy </b>
+         	The aim was to try the image duplicacy methods to see if the same images are found. This is not directly related to image clustering but we thought to try this method  to analyse the results.<br>
+
+         	Image duplicacy problems are solved using the image hashing techniques , in which perceptual hash algorithms describe a class of comparable hash functions. Features in the image are used to generate a distinct (but not unique) fingerprint, and these fingerprints are comparable. There are several image hashing algoritgms : <br>
+         	a) Average hashing (aHash) <br>
+			b)Perceptual hashing (pHash)<br>
+			c)Difference hashing (dHash)<br>
+			d)Wavelet hashing (wHash)<br>
+			e)HSV color hashing (colorhash)<br>
+			The implementation of all these algorithms are provided in the imagehash library(python)<br>
+			<a href="https://github.com/JohannesBuchner/imagehash">https://github.com/JohannesBuchner/imagehash</a><br>
+
+
+
 
       </p>  
    
