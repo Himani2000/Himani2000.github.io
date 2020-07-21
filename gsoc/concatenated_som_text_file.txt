@@ -1,0 +1,2349 @@
+Writing for the file -->  ideology_model_vgg_19-som-pca-tsne_som_ 
+Total clusters found -->34
+Number of images in trump cluster-> 1-> 8 
+Number of images in flynn cluster-> 1-> 13 
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 6-> 4 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 5-> 7 
+Number of images in flynn cluster-> 7-> 3 
+Number of images in khewsis cluster->4-> 3 
+Number of images in flynn cluster-> 8-> 2 
+Number of images in trump cluster-> 6-> 2 
+Number of images in flynn cluster-> 9-> 2 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 7-> 2 
+Number of images in flynn cluster-> 11-> 2 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in trump cluster-> 8-> 3 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 9-> 3 
+Number of images in flynn cluster-> 14-> 9 
+Number of images in khewsis cluster->8-> 2 
+Number of images in trump cluster-> 10-> 2 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 11-> 3 
+Number of images in flynn cluster-> 15-> 2 
+Number of images in khewsis cluster->10-> 2 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 16-> 7 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 17-> 4 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 18-> 4 
+Number of images in trump cluster-> 15-> 5 
+Number of images in flynn cluster-> 19-> 2 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 17-> 2 
+Number of images in flynn cluster-> 21-> 6 
+Number of images in khewsis cluster->14-> 2 
+Total clusters for trump rnc is 17
+Total clusters for flynn is 21
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology__grayscale_-som-pca_som_ 
+Total clusters found -->66
+Number of images in flynn cluster-> 1-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 1-> 4 
+Number of images in flynn cluster-> 2-> 2 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 3-> 3 
+Number of images in khewsis cluster->3-> 2 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 3 
+Number of images in khewsis cluster->4-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in trump cluster-> 4-> 4 
+Number of images in flynn cluster-> 7-> 4 
+Number of images in khewsis cluster->6-> 2 
+Number of images in trump cluster-> 5-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 11-> 3 
+Number of images in trump cluster-> 7-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 17-> 4 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 12-> 4 
+Number of images in flynn cluster-> 18-> 3 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 13-> 4 
+Number of images in flynn cluster-> 19-> 5 
+Number of images in flynn cluster-> 20-> 2 
+Number of images in trump cluster-> 14-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in flynn cluster-> 21-> 3 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in flynn cluster-> 22-> 3 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 16-> 1 
+Number of images in trump cluster-> 17-> 2 
+Number of images in flynn cluster-> 25-> 4 
+Number of images in trump cluster-> 18-> 4 
+Number of images in flynn cluster-> 26-> 2 
+Number of images in trump cluster-> 19-> 9 
+Number of images in flynn cluster-> 27-> 10 
+Number of images in khewsis cluster->14-> 3 
+Number of images in trump cluster-> 20-> 2 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in khewsis cluster->15-> 1 
+Number of images in trump cluster-> 21-> 1 
+Number of images in flynn cluster-> 29-> 2 
+Total clusters for trump rnc is 21
+Total clusters for flynn is 29
+Total clusters for khewsis rnc is 15
+Writing for the file -->  ideology__fast_-som-pca-tsne_som_ 
+Total clusters found -->60
+Number of images in flynn cluster-> 1-> 1 
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 2-> 2 
+Number of images in flynn cluster-> 3-> 3 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 4-> 1 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in flynn cluster-> 6-> 2 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 5-> 4 
+Number of images in flynn cluster-> 7-> 9 
+Number of images in khewsis cluster->2-> 5 
+Number of images in flynn cluster-> 8-> 2 
+Number of images in trump cluster-> 6-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in trump cluster-> 8-> 2 
+Number of images in flynn cluster-> 9-> 2 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in khewsis cluster->3-> 2 
+Number of images in flynn cluster-> 13-> 2 
+Number of images in trump cluster-> 10-> 2 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in flynn cluster-> 15-> 2 
+Number of images in trump cluster-> 11-> 2 
+Number of images in trump cluster-> 12-> 2 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in trump cluster-> 13-> 2 
+Number of images in khewsis cluster->4-> 1 
+Number of images in khewsis cluster->5-> 2 
+Number of images in trump cluster-> 14-> 7 
+Number of images in flynn cluster-> 17-> 11 
+Number of images in khewsis cluster->6-> 3 
+Number of images in trump cluster-> 15-> 3 
+Number of images in flynn cluster-> 18-> 8 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in flynn cluster-> 20-> 2 
+Number of images in trump cluster-> 16-> 1 
+Number of images in trump cluster-> 17-> 2 
+Number of images in trump cluster-> 18-> 3 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 19-> 2 
+Number of images in flynn cluster-> 22-> 5 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in trump cluster-> 20-> 3 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 21-> 2 
+Number of images in flynn cluster-> 25-> 3 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 26-> 4 
+Number of images in khewsis cluster->11-> 1 
+Total clusters for trump rnc is 22
+Total clusters for flynn is 26
+Total clusters for khewsis rnc is 11
+Writing for the file -->  ideology_model_resnet50-som-umap_som_ 
+Total clusters found -->5
+Writing for the file -->  ideology__grayscale_-som-tsne_som_ 
+Total clusters found -->39
+Number of images in trump cluster-> 1-> 5 
+Number of images in flynn cluster-> 1-> 7 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 2-> 2 
+Number of images in flynn cluster-> 2-> 6 
+Number of images in khewsis cluster->2-> 2 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 3-> 5 
+Number of images in flynn cluster-> 5-> 7 
+Number of images in khewsis cluster->4-> 2 
+Number of images in trump cluster-> 4-> 2 
+Number of images in trump cluster-> 5-> 1 
+Number of images in trump cluster-> 6-> 3 
+Number of images in flynn cluster-> 6-> 8 
+Number of images in khewsis cluster->5-> 2 
+Number of images in trump cluster-> 7-> 1 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 9-> 3 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 10-> 2 
+Number of images in trump cluster-> 10-> 1 
+Number of images in khewsis cluster->8-> 2 
+Number of images in trump cluster-> 11-> 7 
+Number of images in flynn cluster-> 11-> 5 
+Number of images in khewsis cluster->9-> 2 
+Number of images in trump cluster-> 12-> 3 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in trump cluster-> 13-> 7 
+Number of images in flynn cluster-> 13-> 12 
+Number of images in khewsis cluster->10-> 2 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in flynn cluster-> 15-> 3 
+Number of images in khewsis cluster->11-> 2 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 16-> 5 
+Number of images in flynn cluster-> 19-> 4 
+Number of images in khewsis cluster->12-> 1 
+Total clusters for trump rnc is 16
+Total clusters for flynn is 19
+Total clusters for khewsis rnc is 12
+Writing for the file -->  ideology_model_resnet50-som-pca-tsne_som_ 
+Total clusters found -->70
+Number of images in trump cluster-> 1-> 2 
+Number of images in flynn cluster-> 1-> 2 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in trump cluster-> 3-> 4 
+Number of images in flynn cluster-> 2-> 3 
+Number of images in khewsis cluster->2-> 4 
+Number of images in flynn cluster-> 3-> 2 
+Number of images in flynn cluster-> 4-> 2 
+Number of images in trump cluster-> 4-> 3 
+Number of images in khewsis cluster->3-> 3 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in trump cluster-> 5-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 6-> 5 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 7-> 7 
+Number of images in flynn cluster-> 7-> 8 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 8-> 4 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in trump cluster-> 12-> 2 
+Number of images in flynn cluster-> 10-> 3 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 15-> 6 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in trump cluster-> 16-> 3 
+Number of images in flynn cluster-> 16-> 3 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 17-> 3 
+Number of images in trump cluster-> 17-> 2 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 18-> 3 
+Number of images in flynn cluster-> 19-> 2 
+Number of images in khewsis cluster->10-> 1 
+Number of images in flynn cluster-> 20-> 2 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in trump cluster-> 20-> 1 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in trump cluster-> 21-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in khewsis cluster->12-> 1 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in trump cluster-> 23-> 2 
+Number of images in flynn cluster-> 27-> 3 
+Number of images in khewsis cluster->13-> 2 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in trump cluster-> 24-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in flynn cluster-> 30-> 1 
+Number of images in trump cluster-> 25-> 3 
+Number of images in flynn cluster-> 31-> 4 
+Total clusters for trump rnc is 25
+Total clusters for flynn is 31
+Total clusters for khewsis rnc is 13
+Writing for the file -->  ideology__canny_-som-tsne_som_ 
+Total clusters found -->78
+Number of images in flynn cluster-> 1-> 3 
+Number of images in trump cluster-> 1-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 4-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 5-> 3 
+Number of images in trump cluster-> 6-> 2 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in trump cluster-> 8-> 3 
+Number of images in flynn cluster-> 8-> 3 
+Number of images in khewsis cluster->4-> 2 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 9-> 2 
+Number of images in trump cluster-> 10-> 2 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in khewsis cluster->5-> 2 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 16-> 2 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in trump cluster-> 20-> 1 
+Number of images in trump cluster-> 21-> 4 
+Number of images in flynn cluster-> 22-> 3 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 23-> 2 
+Number of images in flynn cluster-> 24-> 5 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 23-> 4 
+Number of images in flynn cluster-> 25-> 3 
+Number of images in khewsis cluster->10-> 2 
+Number of images in trump cluster-> 24-> 1 
+Number of images in flynn cluster-> 26-> 6 
+Number of images in khewsis cluster->11-> 2 
+Number of images in trump cluster-> 25-> 6 
+Number of images in flynn cluster-> 27-> 8 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 26-> 1 
+Number of images in flynn cluster-> 28-> 2 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in flynn cluster-> 30-> 3 
+Number of images in khewsis cluster->13-> 1 
+Number of images in flynn cluster-> 31-> 1 
+Number of images in trump cluster-> 27-> 1 
+Number of images in flynn cluster-> 32-> 3 
+Number of images in khewsis cluster->14-> 2 
+Number of images in trump cluster-> 28-> 3 
+Number of images in flynn cluster-> 33-> 2 
+Number of images in flynn cluster-> 34-> 1 
+Total clusters for trump rnc is 28
+Total clusters for flynn is 34
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology__prewitt_-som-pca-tsne_som_ 
+Total clusters found -->56
+Number of images in trump cluster-> 1-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 1-> 2 
+Number of images in trump cluster-> 3-> 1 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 5-> 4 
+Number of images in flynn cluster-> 3-> 6 
+Number of images in khewsis cluster->1-> 3 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 6-> 2 
+Number of images in flynn cluster-> 5-> 3 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 7-> 3 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 7-> 4 
+Number of images in khewsis cluster->4-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 10-> 3 
+Number of images in flynn cluster-> 9-> 4 
+Number of images in trump cluster-> 11-> 5 
+Number of images in flynn cluster-> 10-> 13 
+Number of images in khewsis cluster->6-> 3 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 12-> 4 
+Number of images in khewsis cluster->7-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in trump cluster-> 16-> 2 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 15-> 3 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 16-> 4 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in trump cluster-> 20-> 1 
+Number of images in flynn cluster-> 17-> 2 
+Number of images in khewsis cluster->10-> 2 
+Number of images in trump cluster-> 21-> 1 
+Number of images in trump cluster-> 22-> 4 
+Number of images in flynn cluster-> 18-> 2 
+Number of images in khewsis cluster->11-> 2 
+Number of images in trump cluster-> 23-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 24-> 1 
+Number of images in flynn cluster-> 20-> 3 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in trump cluster-> 25-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 26-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in trump cluster-> 27-> 1 
+Number of images in flynn cluster-> 26-> 2 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 28-> 1 
+Number of images in flynn cluster-> 27-> 4 
+Number of images in khewsis cluster->13-> 1 
+Total clusters for trump rnc is 28
+Total clusters for flynn is 27
+Total clusters for khewsis rnc is 13
+Writing for the file -->  ideology__orb_-som-tsne_som_ 
+Total clusters found -->81
+Number of images in flynn cluster-> 1-> 1 
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 2-> 2 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in trump cluster-> 3-> 1 
+Number of images in trump cluster-> 4-> 3 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in khewsis cluster->1-> 2 
+Number of images in trump cluster-> 5-> 4 
+Number of images in flynn cluster-> 7-> 5 
+Number of images in trump cluster-> 6-> 3 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 7-> 3 
+Number of images in flynn cluster-> 11-> 3 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in flynn cluster-> 13-> 2 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 8-> 3 
+Number of images in flynn cluster-> 15-> 2 
+Number of images in flynn cluster-> 16-> 3 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 18-> 2 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 20-> 2 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in trump cluster-> 15-> 2 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 27-> 6 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in khewsis cluster->12-> 3 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 29-> 2 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 30-> 2 
+Number of images in trump cluster-> 20-> 2 
+Number of images in flynn cluster-> 31-> 2 
+Number of images in flynn cluster-> 32-> 1 
+Number of images in flynn cluster-> 33-> 1 
+Number of images in trump cluster-> 21-> 2 
+Number of images in flynn cluster-> 34-> 2 
+Number of images in flynn cluster-> 35-> 1 
+Number of images in flynn cluster-> 36-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in flynn cluster-> 37-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 38-> 1 
+Number of images in trump cluster-> 23-> 2 
+Number of images in flynn cluster-> 39-> 2 
+Number of images in khewsis cluster->14-> 1 
+Number of images in trump cluster-> 24-> 8 
+Number of images in flynn cluster-> 40-> 4 
+Number of images in khewsis cluster->15-> 2 
+Total clusters for trump rnc is 24
+Total clusters for flynn is 40
+Total clusters for khewsis rnc is 15
+Writing for the file -->  ideology__fast_-som-pca_som_ 
+Total clusters found -->28
+Writing for the file -->  ideology__brief_-som-umap_som_ 
+Total clusters found -->16
+Writing for the file -->  ideology__fast_-som-umap_som_ 
+Total clusters found -->3
+Writing for the file -->  ideology__grayscale_-som-pca-tsne_som_ 
+Total clusters found -->19
+Writing for the file -->  ideology__prewitt_-som-tsne_som_ 
+Total clusters found -->47
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 1-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 1-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in trump cluster-> 3-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 4-> 2 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 5-> 2 
+Number of images in flynn cluster-> 2-> 3 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in trump cluster-> 9-> 2 
+Number of images in flynn cluster-> 7-> 5 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 10-> 3 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in flynn cluster-> 10-> 3 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 2 
+Number of images in flynn cluster-> 13-> 4 
+Number of images in khewsis cluster->8-> 3 
+Number of images in trump cluster-> 14-> 14 
+Number of images in flynn cluster-> 14-> 17 
+Number of images in khewsis cluster->9-> 6 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 16-> 3 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 18-> 3 
+Number of images in flynn cluster-> 19-> 2 
+Number of images in trump cluster-> 18-> 9 
+Number of images in flynn cluster-> 20-> 18 
+Number of images in khewsis cluster->11-> 2 
+Total clusters for trump rnc is 18
+Total clusters for flynn is 20
+Total clusters for khewsis rnc is 11
+Writing for the file -->  ideology__sobel_-som-pca-tsne_som_ 
+Total clusters found -->36
+Number of images in trump cluster-> 1-> 8 
+Number of images in flynn cluster-> 1-> 10 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 2-> 11 
+Number of images in flynn cluster-> 2-> 20 
+Number of images in khewsis cluster->2-> 5 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 2 
+Number of images in trump cluster-> 3-> 5 
+Number of images in flynn cluster-> 5-> 3 
+Number of images in khewsis cluster->3-> 2 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in trump cluster-> 7-> 7 
+Number of images in flynn cluster-> 8-> 12 
+Number of images in khewsis cluster->5-> 3 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 10-> 3 
+Number of images in trump cluster-> 9-> 1 
+Number of images in trump cluster-> 10-> 2 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in flynn cluster-> 13-> 2 
+Number of images in trump cluster-> 13-> 2 
+Number of images in flynn cluster-> 14-> 7 
+Number of images in khewsis cluster->8-> 5 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Total clusters for trump rnc is 15
+Total clusters for flynn is 18
+Total clusters for khewsis rnc is 8
+Writing for the file -->  ideology__hog_-som-pca_som_ 
+Total clusters found -->55
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 1-> 2 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 2-> 4 
+Number of images in flynn cluster-> 2-> 3 
+Number of images in flynn cluster-> 3-> 4 
+Number of images in khewsis cluster->2-> 3 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in trump cluster-> 4-> 1 
+Number of images in flynn cluster-> 6-> 2 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in trump cluster-> 5-> 4 
+Number of images in flynn cluster-> 8-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in flynn cluster-> 10-> 2 
+Number of images in trump cluster-> 7-> 3 
+Number of images in flynn cluster-> 11-> 3 
+Number of images in khewsis cluster->4-> 2 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in trump cluster-> 9-> 2 
+Number of images in flynn cluster-> 13-> 5 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in trump cluster-> 11-> 2 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 12-> 8 
+Number of images in flynn cluster-> 15-> 9 
+Number of images in khewsis cluster->6-> 2 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 16-> 4 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 17-> 2 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 19-> 3 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 16-> 7 
+Number of images in flynn cluster-> 20-> 14 
+Number of images in khewsis cluster->9-> 4 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 22-> 2 
+Number of images in trump cluster-> 19-> 2 
+Number of images in flynn cluster-> 23-> 3 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 20-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 21-> 1 
+Number of images in khewsis cluster->12-> 1 
+Total clusters for trump rnc is 21
+Total clusters for flynn is 24
+Total clusters for khewsis rnc is 12
+Writing for the file -->  ideology__sobel_-som-tsne_som_ 
+Total clusters found -->41
+Number of images in trump cluster-> 1-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 3-> 8 
+Number of images in flynn cluster-> 1-> 17 
+Number of images in khewsis cluster->2-> 4 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 2-> 6 
+Number of images in khewsis cluster->3-> 2 
+Number of images in trump cluster-> 5-> 3 
+Number of images in flynn cluster-> 3-> 4 
+Number of images in trump cluster-> 6-> 3 
+Number of images in flynn cluster-> 4-> 7 
+Number of images in khewsis cluster->4-> 1 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 7-> 2 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 10-> 2 
+Number of images in flynn cluster-> 10-> 2 
+Number of images in trump cluster-> 11-> 6 
+Number of images in flynn cluster-> 11-> 5 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 3 
+Number of images in flynn cluster-> 12-> 5 
+Number of images in khewsis cluster->10-> 2 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 13-> 3 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 16-> 2 
+Number of images in flynn cluster-> 15-> 2 
+Number of images in trump cluster-> 17-> 1 
+Number of images in trump cluster-> 18-> 2 
+Number of images in flynn cluster-> 16-> 3 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in khewsis cluster->12-> 2 
+Number of images in trump cluster-> 20-> 1 
+Number of images in trump cluster-> 21-> 2 
+Number of images in flynn cluster-> 17-> 4 
+Number of images in khewsis cluster->13-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Total clusters for trump rnc is 21
+Total clusters for flynn is 18
+Total clusters for khewsis rnc is 13
+Writing for the file -->  ideology__hog_-som-umap_som_ 
+Total clusters found -->20
+Writing for the file -->  ideology_model_densenet169-som-tsne_som_ 
+Total clusters found -->55
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 1-> 3 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in khewsis cluster->1-> 3 
+Number of images in trump cluster-> 3-> 1 
+Number of images in trump cluster-> 4-> 1 
+Number of images in trump cluster-> 5-> 2 
+Number of images in flynn cluster-> 3-> 5 
+Number of images in khewsis cluster->2-> 4 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in trump cluster-> 9-> 2 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in trump cluster-> 11-> 5 
+Number of images in flynn cluster-> 8-> 7 
+Number of images in khewsis cluster->4-> 2 
+Number of images in trump cluster-> 12-> 2 
+Number of images in trump cluster-> 13-> 3 
+Number of images in flynn cluster-> 9-> 6 
+Number of images in khewsis cluster->5-> 3 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 10-> 2 
+Number of images in trump cluster-> 15-> 3 
+Number of images in flynn cluster-> 11-> 4 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in trump cluster-> 16-> 6 
+Number of images in flynn cluster-> 14-> 10 
+Number of images in khewsis cluster->6-> 3 
+Number of images in trump cluster-> 17-> 8 
+Number of images in flynn cluster-> 15-> 10 
+Number of images in khewsis cluster->7-> 2 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in flynn cluster-> 18-> 3 
+Number of images in trump cluster-> 19-> 2 
+Number of images in flynn cluster-> 19-> 2 
+Number of images in flynn cluster-> 20-> 2 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 20-> 3 
+Number of images in flynn cluster-> 22-> 1 
+Total clusters for trump rnc is 20
+Total clusters for flynn is 22
+Total clusters for khewsis rnc is 8
+Writing for the file -->  ideology_model_xception-som-umap_som_ 
+Total clusters found -->9
+Writing for the file -->  ideology_model_vgg_19-som-umap_som_ 
+Total clusters found -->27
+Writing for the file -->  ideology_model_resnet50-som-pca_som_ 
+Total clusters found -->78
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 1-> 5 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 2-> 2 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 3-> 7 
+Number of images in flynn cluster-> 6-> 7 
+Number of images in khewsis cluster->2-> 5 
+Number of images in trump cluster-> 4-> 4 
+Number of images in flynn cluster-> 7-> 10 
+Number of images in khewsis cluster->3-> 2 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 9-> 3 
+Number of images in trump cluster-> 7-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in flynn cluster-> 10-> 3 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in flynn cluster-> 12-> 3 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 8-> 2 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 18-> 5 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in trump cluster-> 14-> 2 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 22-> 3 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 23-> 2 
+Number of images in trump cluster-> 17-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 20-> 2 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in flynn cluster-> 27-> 2 
+Number of images in trump cluster-> 21-> 4 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 22-> 5 
+Number of images in flynn cluster-> 29-> 3 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 23-> 2 
+Number of images in flynn cluster-> 30-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 24-> 1 
+Number of images in trump cluster-> 25-> 1 
+Number of images in trump cluster-> 26-> 1 
+Number of images in flynn cluster-> 31-> 2 
+Number of images in khewsis cluster->14-> 1 
+Total clusters for trump rnc is 26
+Total clusters for flynn is 31
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology_model_vgg_19-som-tsne_som_ 
+Total clusters found -->68
+Number of images in flynn cluster-> 1-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 2-> 2 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 2 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 8-> 2 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in trump cluster-> 4-> 4 
+Number of images in flynn cluster-> 10-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 5-> 3 
+Number of images in flynn cluster-> 11-> 2 
+Number of images in khewsis cluster->4-> 2 
+Number of images in trump cluster-> 6-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in trump cluster-> 8-> 2 
+Number of images in flynn cluster-> 12-> 4 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 15-> 2 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 19-> 2 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 21-> 4 
+Number of images in khewsis cluster->8-> 2 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 22-> 2 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 18-> 3 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 19-> 3 
+Number of images in trump cluster-> 20-> 2 
+Number of images in flynn cluster-> 25-> 3 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in trump cluster-> 21-> 1 
+Number of images in flynn cluster-> 27-> 1 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in trump cluster-> 23-> 2 
+Number of images in flynn cluster-> 30-> 4 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 24-> 1 
+Number of images in flynn cluster-> 31-> 1 
+Number of images in trump cluster-> 25-> 2 
+Number of images in flynn cluster-> 32-> 3 
+Number of images in khewsis cluster->14-> 1 
+Number of images in trump cluster-> 26-> 4 
+Number of images in flynn cluster-> 33-> 8 
+Number of images in khewsis cluster->15-> 1 
+Number of images in trump cluster-> 27-> 4 
+Number of images in flynn cluster-> 34-> 6 
+Number of images in khewsis cluster->16-> 2 
+Number of images in flynn cluster-> 35-> 1 
+Total clusters for trump rnc is 27
+Total clusters for flynn is 35
+Total clusters for khewsis rnc is 16
+Writing for the file -->  ideology__canny_-som-pca-tsne_som_ 
+Total clusters found -->78
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 1-> 2 
+Number of images in flynn cluster-> 1-> 6 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 2-> 2 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in trump cluster-> 5-> 3 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 8-> 2 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 12-> 4 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 9-> 6 
+Number of images in flynn cluster-> 13-> 12 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 15-> 4 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 20-> 2 
+Number of images in trump cluster-> 15-> 2 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in khewsis cluster->10-> 3 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 23-> 3 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 25-> 4 
+Number of images in trump cluster-> 20-> 2 
+Number of images in trump cluster-> 21-> 3 
+Number of images in flynn cluster-> 26-> 2 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 22-> 2 
+Number of images in flynn cluster-> 27-> 2 
+Number of images in khewsis cluster->14-> 2 
+Number of images in trump cluster-> 23-> 1 
+Number of images in flynn cluster-> 28-> 2 
+Number of images in trump cluster-> 24-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in flynn cluster-> 30-> 1 
+Number of images in trump cluster-> 25-> 2 
+Number of images in flynn cluster-> 31-> 1 
+Number of images in khewsis cluster->15-> 1 
+Number of images in trump cluster-> 26-> 3 
+Number of images in flynn cluster-> 32-> 1 
+Number of images in flynn cluster-> 33-> 3 
+Number of images in khewsis cluster->16-> 1 
+Number of images in trump cluster-> 27-> 1 
+Number of images in trump cluster-> 28-> 1 
+Number of images in flynn cluster-> 34-> 1 
+Total clusters for trump rnc is 28
+Total clusters for flynn is 34
+Total clusters for khewsis rnc is 16
+Writing for the file -->  ideology_model_densenet169-som-umap_som_ 
+Total clusters found -->8
+Writing for the file -->  ideology__hog_-som-tsne_som_ 
+Total clusters found -->74
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 1-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 4-> 2 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 5-> 5 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 3-> 2 
+Number of images in flynn cluster-> 6-> 2 
+Number of images in khewsis cluster->4-> 1 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in trump cluster-> 4-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 6-> 5 
+Number of images in flynn cluster-> 9-> 8 
+Number of images in khewsis cluster->6-> 2 
+Number of images in trump cluster-> 7-> 2 
+Number of images in flynn cluster-> 10-> 2 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 13-> 2 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in trump cluster-> 10-> 2 
+Number of images in flynn cluster-> 14-> 3 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 4 
+Number of images in flynn cluster-> 22-> 5 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 23-> 4 
+Number of images in trump cluster-> 15-> 10 
+Number of images in flynn cluster-> 24-> 7 
+Number of images in khewsis cluster->10-> 3 
+Number of images in trump cluster-> 16-> 4 
+Number of images in flynn cluster-> 25-> 4 
+Number of images in khewsis cluster->11-> 2 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in flynn cluster-> 27-> 1 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in khewsis cluster->12-> 2 
+Number of images in trump cluster-> 17-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in trump cluster-> 20-> 3 
+Number of images in flynn cluster-> 30-> 2 
+Number of images in trump cluster-> 21-> 2 
+Number of images in flynn cluster-> 31-> 3 
+Number of images in khewsis cluster->14-> 1 
+Total clusters for trump rnc is 21
+Total clusters for flynn is 31
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology_model_xception-som-pca_som_ 
+Total clusters found -->94
+Number of images in flynn cluster-> 1-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 3-> 2 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 2-> 3 
+Number of images in flynn cluster-> 4-> 4 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 3-> 2 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in trump cluster-> 5-> 2 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in trump cluster-> 6-> 2 
+Number of images in flynn cluster-> 8-> 2 
+Number of images in trump cluster-> 7-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 2 
+Number of images in trump cluster-> 14-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 15-> 2 
+Number of images in trump cluster-> 16-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 17-> 2 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 21-> 2 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 20-> 2 
+Number of images in trump cluster-> 21-> 1 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 23-> 2 
+Number of images in trump cluster-> 23-> 1 
+Number of images in flynn cluster-> 24-> 6 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 24-> 1 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in flynn cluster-> 27-> 2 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in flynn cluster-> 30-> 1 
+Number of images in flynn cluster-> 31-> 3 
+Number of images in trump cluster-> 25-> 3 
+Number of images in flynn cluster-> 32-> 6 
+Number of images in flynn cluster-> 33-> 1 
+Number of images in trump cluster-> 26-> 1 
+Number of images in flynn cluster-> 34-> 2 
+Number of images in trump cluster-> 27-> 1 
+Number of images in flynn cluster-> 35-> 2 
+Number of images in khewsis cluster->12-> 2 
+Number of images in trump cluster-> 28-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 29-> 3 
+Number of images in flynn cluster-> 36-> 4 
+Number of images in khewsis cluster->14-> 3 
+Number of images in trump cluster-> 30-> 1 
+Number of images in flynn cluster-> 37-> 1 
+Number of images in trump cluster-> 31-> 1 
+Number of images in khewsis cluster->15-> 1 
+Number of images in trump cluster-> 32-> 3 
+Number of images in flynn cluster-> 38-> 2 
+Number of images in khewsis cluster->16-> 1 
+Total clusters for trump rnc is 32
+Total clusters for flynn is 38
+Total clusters for khewsis rnc is 16
+Writing for the file -->  ideology_model_xception-som-tsne_som_ 
+Total clusters found -->66
+Number of images in trump cluster-> 1-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 1-> 1 
+Number of images in trump cluster-> 3-> 4 
+Number of images in flynn cluster-> 2-> 3 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 4-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in trump cluster-> 5-> 3 
+Number of images in flynn cluster-> 4-> 3 
+Number of images in trump cluster-> 6-> 6 
+Number of images in flynn cluster-> 5-> 10 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 7-> 3 
+Number of images in khewsis cluster->4-> 3 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 8-> 3 
+Number of images in trump cluster-> 10-> 3 
+Number of images in flynn cluster-> 9-> 3 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 11-> 5 
+Number of images in flynn cluster-> 12-> 4 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 2 
+Number of images in flynn cluster-> 14-> 3 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 18-> 5 
+Number of images in khewsis cluster->8-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in trump cluster-> 17-> 2 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 19-> 2 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 20-> 1 
+Number of images in flynn cluster-> 23-> 5 
+Number of images in trump cluster-> 21-> 1 
+Number of images in flynn cluster-> 24-> 2 
+Number of images in khewsis cluster->13-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in khewsis cluster->14-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 26-> 2 
+Number of images in khewsis cluster->15-> 1 
+Number of images in flynn cluster-> 27-> 2 
+Number of images in khewsis cluster->16-> 1 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in khewsis cluster->17-> 1 
+Number of images in trump cluster-> 23-> 3 
+Number of images in flynn cluster-> 29-> 2 
+Number of images in flynn cluster-> 30-> 1 
+Number of images in trump cluster-> 24-> 2 
+Number of images in flynn cluster-> 31-> 1 
+Total clusters for trump rnc is 24
+Total clusters for flynn is 31
+Total clusters for khewsis rnc is 17
+Writing for the file -->  ideology__canny_-som-pca_som_ 
+Total clusters found -->59
+Number of images in trump cluster-> 1-> 4 
+Number of images in flynn cluster-> 1-> 6 
+Number of images in khewsis cluster->1-> 2 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 4-> 2 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 4-> 4 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in khewsis cluster->4-> 2 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 5-> 2 
+Number of images in flynn cluster-> 8-> 5 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 9-> 2 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in trump cluster-> 9-> 3 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in trump cluster-> 11-> 3 
+Number of images in flynn cluster-> 17-> 5 
+Number of images in khewsis cluster->7-> 2 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in khewsis cluster->8-> 2 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in trump cluster-> 13-> 3 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 22-> 2 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 23-> 3 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in flynn cluster-> 27-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 28-> 6 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in trump cluster-> 19-> 9 
+Number of images in flynn cluster-> 30-> 8 
+Number of images in khewsis cluster->11-> 5 
+Number of images in trump cluster-> 20-> 1 
+Number of images in flynn cluster-> 31-> 2 
+Number of images in trump cluster-> 21-> 1 
+Number of images in trump cluster-> 22-> 2 
+Number of images in trump cluster-> 23-> 1 
+Number of images in flynn cluster-> 32-> 2 
+Total clusters for trump rnc is 23
+Total clusters for flynn is 32
+Total clusters for khewsis rnc is 11
+Writing for the file -->  ideology__brief_-som-pca_som_ 
+Total clusters found -->44
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 1-> 2 
+Number of images in trump cluster-> 2-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 1-> 2 
+Number of images in khewsis cluster->2-> 2 
+Number of images in trump cluster-> 4-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 6-> 17 
+Number of images in flynn cluster-> 3-> 23 
+Number of images in khewsis cluster->3-> 3 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 7-> 6 
+Number of images in flynn cluster-> 5-> 10 
+Number of images in khewsis cluster->4-> 3 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in trump cluster-> 10-> 2 
+Number of images in flynn cluster-> 11-> 2 
+Number of images in khewsis cluster->8-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 12-> 3 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in trump cluster-> 13-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in flynn cluster-> 19-> 4 
+Number of images in khewsis cluster->11-> 2 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in flynn cluster-> 22-> 2 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 17-> 3 
+Number of images in flynn cluster-> 23-> 3 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 24-> 2 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in khewsis cluster->13-> 1 
+Total clusters for trump rnc is 19
+Total clusters for flynn is 25
+Total clusters for khewsis rnc is 13
+Writing for the file -->  ideology__hog_-som-pca-tsne_som_ 
+Total clusters found -->39
+Number of images in flynn cluster-> 1-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 1-> 2 
+Number of images in flynn cluster-> 3-> 5 
+Number of images in flynn cluster-> 4-> 4 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in trump cluster-> 3-> 16 
+Number of images in flynn cluster-> 10-> 20 
+Number of images in khewsis cluster->3-> 8 
+Number of images in trump cluster-> 4-> 3 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 6-> 3 
+Number of images in flynn cluster-> 14-> 2 
+Number of images in khewsis cluster->5-> 2 
+Number of images in trump cluster-> 7-> 3 
+Number of images in flynn cluster-> 15-> 3 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 18-> 2 
+Number of images in trump cluster-> 10-> 6 
+Number of images in flynn cluster-> 19-> 14 
+Number of images in khewsis cluster->6-> 2 
+Number of images in trump cluster-> 11-> 4 
+Number of images in khewsis cluster->7-> 3 
+Number of images in trump cluster-> 12-> 5 
+Number of images in flynn cluster-> 20-> 7 
+Number of images in khewsis cluster->8-> 1 
+Total clusters for trump rnc is 12
+Total clusters for flynn is 20
+Total clusters for khewsis rnc is 8
+Writing for the file -->  ideology__sobel_-som-umap_som_ 
+Total clusters found -->9
+Writing for the file -->  ideology_model_vgg_19-som-pca_som_ 
+Total clusters found -->64
+Number of images in trump cluster-> 1-> 1 
+Number of images in trump cluster-> 2-> 2 
+Number of images in flynn cluster-> 1-> 3 
+Number of images in trump cluster-> 3-> 1 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 6-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in trump cluster-> 9-> 3 
+Number of images in flynn cluster-> 8-> 2 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 9-> 2 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 10-> 2 
+Number of images in trump cluster-> 12-> 2 
+Number of images in flynn cluster-> 11-> 2 
+Number of images in khewsis cluster->5-> 3 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 13-> 4 
+Number of images in khewsis cluster->6-> 2 
+Number of images in trump cluster-> 15-> 3 
+Number of images in flynn cluster-> 14-> 8 
+Number of images in khewsis cluster->7-> 2 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 16-> 4 
+Number of images in trump cluster-> 17-> 2 
+Number of images in flynn cluster-> 17-> 4 
+Number of images in khewsis cluster->9-> 2 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 20-> 1 
+Number of images in flynn cluster-> 20-> 3 
+Number of images in trump cluster-> 21-> 1 
+Number of images in flynn cluster-> 21-> 3 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in trump cluster-> 23-> 1 
+Number of images in flynn cluster-> 23-> 2 
+Number of images in trump cluster-> 24-> 5 
+Number of images in flynn cluster-> 24-> 4 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 25-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in flynn cluster-> 27-> 2 
+Number of images in trump cluster-> 26-> 1 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 27-> 4 
+Number of images in flynn cluster-> 29-> 2 
+Number of images in khewsis cluster->13-> 2 
+Number of images in trump cluster-> 28-> 1 
+Number of images in flynn cluster-> 30-> 4 
+Number of images in flynn cluster-> 31-> 2 
+Number of images in trump cluster-> 29-> 2 
+Number of images in flynn cluster-> 32-> 1 
+Total clusters for trump rnc is 29
+Total clusters for flynn is 32
+Total clusters for khewsis rnc is 13
+Writing for the file -->  ideology__orb_-som-pca-tsne_som_ 
+Total clusters found -->72
+Number of images in flynn cluster-> 1-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 1-> 6 
+Number of images in flynn cluster-> 3-> 4 
+Number of images in khewsis cluster->1-> 2 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in trump cluster-> 2-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 6-> 4 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 7-> 3 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 5-> 3 
+Number of images in trump cluster-> 6-> 1 
+Number of images in trump cluster-> 7-> 2 
+Number of images in flynn cluster-> 9-> 3 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in trump cluster-> 9-> 2 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in trump cluster-> 10-> 3 
+Number of images in flynn cluster-> 13-> 5 
+Number of images in trump cluster-> 11-> 2 
+Number of images in flynn cluster-> 14-> 4 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 15-> 3 
+Number of images in khewsis cluster->7-> 2 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in flynn cluster-> 17-> 2 
+Number of images in khewsis cluster->8-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 13-> 2 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in trump cluster-> 15-> 2 
+Number of images in flynn cluster-> 21-> 2 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in khewsis cluster->10-> 2 
+Number of images in khewsis cluster->11-> 2 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in trump cluster-> 16-> 3 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 17-> 2 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 25-> 2 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in trump cluster-> 20-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 21-> 4 
+Number of images in flynn cluster-> 26-> 12 
+Number of images in khewsis cluster->14-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 27-> 4 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in trump cluster-> 23-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in khewsis cluster->15-> 1 
+Number of images in trump cluster-> 24-> 1 
+Number of images in flynn cluster-> 30-> 2 
+Total clusters for trump rnc is 24
+Total clusters for flynn is 30
+Total clusters for khewsis rnc is 15
+Writing for the file -->  ideology__prewitt_-som-pca_som_ 
+Total clusters found -->45
+Number of images in trump cluster-> 1-> 2 
+Number of images in flynn cluster-> 1-> 2 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 2-> 2 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 3-> 2 
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in flynn cluster-> 5-> 3 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 4-> 5 
+Number of images in flynn cluster-> 6-> 7 
+Number of images in khewsis cluster->3-> 2 
+Number of images in khewsis cluster->4-> 2 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 5-> 8 
+Number of images in flynn cluster-> 8-> 6 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 6-> 2 
+Number of images in flynn cluster-> 10-> 4 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 7-> 2 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 11-> 4 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 13-> 4 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 10-> 3 
+Number of images in trump cluster-> 11-> 3 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 15-> 2 
+Number of images in trump cluster-> 12-> 4 
+Number of images in flynn cluster-> 16-> 9 
+Number of images in flynn cluster-> 17-> 3 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 18-> 8 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in khewsis cluster->12-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in khewsis cluster->14-> 1 
+Number of images in trump cluster-> 15-> 3 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in khewsis cluster->15-> 2 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 20-> 2 
+Number of images in trump cluster-> 17-> 3 
+Number of images in trump cluster-> 18-> 3 
+Number of images in flynn cluster-> 21-> 4 
+Number of images in khewsis cluster->16-> 1 
+Number of images in trump cluster-> 19-> 1 
+Total clusters for trump rnc is 19
+Total clusters for flynn is 21
+Total clusters for khewsis rnc is 16
+Writing for the file -->  ideology__prewitt_-som-umap_som_ 
+Total clusters found -->11
+Writing for the file -->  ideology_model_xception-som-pca-tsne_som_ 
+Total clusters found -->63
+Number of images in trump cluster-> 1-> 2 
+Number of images in flynn cluster-> 1-> 6 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 3-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 4-> 2 
+Number of images in flynn cluster-> 3-> 2 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 5-> 3 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in flynn cluster-> 7-> 2 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 7-> 2 
+Number of images in flynn cluster-> 9-> 2 
+Number of images in khewsis cluster->4-> 2 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in trump cluster-> 8-> 14 
+Number of images in flynn cluster-> 13-> 15 
+Number of images in khewsis cluster->6-> 5 
+Number of images in flynn cluster-> 14-> 4 
+Number of images in trump cluster-> 9-> 3 
+Number of images in flynn cluster-> 15-> 4 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 17-> 2 
+Number of images in khewsis cluster->8-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 19-> 2 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 20-> 3 
+Number of images in trump cluster-> 16-> 4 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 18-> 2 
+Number of images in flynn cluster-> 25-> 2 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in flynn cluster-> 27-> 1 
+Number of images in khewsis cluster->12-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in flynn cluster-> 28-> 3 
+Number of images in trump cluster-> 20-> 4 
+Number of images in flynn cluster-> 29-> 2 
+Number of images in khewsis cluster->14-> 1 
+Total clusters for trump rnc is 20
+Total clusters for flynn is 29
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology__fast_-som-tsne_som_ 
+Total clusters found -->85
+Number of images in flynn cluster-> 1-> 2 
+Number of images in flynn cluster-> 2-> 7 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 4-> 5 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in trump cluster-> 4-> 1 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 8-> 4 
+Number of images in trump cluster-> 6-> 3 
+Number of images in flynn cluster-> 9-> 4 
+Number of images in khewsis cluster->2-> 2 
+Number of images in trump cluster-> 7-> 2 
+Number of images in flynn cluster-> 10-> 4 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 8-> 2 
+Number of images in trump cluster-> 9-> 3 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 10-> 4 
+Number of images in flynn cluster-> 13-> 3 
+Number of images in trump cluster-> 11-> 2 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in trump cluster-> 13-> 2 
+Number of images in flynn cluster-> 17-> 5 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 18-> 2 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 15-> 2 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in flynn cluster-> 22-> 3 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in flynn cluster-> 24-> 2 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in trump cluster-> 16-> 3 
+Number of images in flynn cluster-> 26-> 1 
+Number of images in flynn cluster-> 27-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 19-> 3 
+Number of images in flynn cluster-> 28-> 2 
+Number of images in khewsis cluster->8-> 2 
+Number of images in trump cluster-> 20-> 3 
+Number of images in flynn cluster-> 29-> 2 
+Number of images in khewsis cluster->9-> 2 
+Number of images in flynn cluster-> 30-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 21-> 2 
+Number of images in flynn cluster-> 31-> 2 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 32-> 4 
+Number of images in khewsis cluster->12-> 2 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 23-> 1 
+Number of images in trump cluster-> 24-> 1 
+Number of images in flynn cluster-> 33-> 1 
+Number of images in trump cluster-> 25-> 2 
+Number of images in khewsis cluster->14-> 2 
+Total clusters for trump rnc is 25
+Total clusters for flynn is 33
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology__brief_-som-tsne_som_ 
+Total clusters found -->63
+Number of images in trump cluster-> 1-> 2 
+Number of images in flynn cluster-> 1-> 1 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 2 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 5-> 4 
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 6-> 2 
+Number of images in trump cluster-> 4-> 3 
+Number of images in flynn cluster-> 7-> 3 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 5-> 2 
+Number of images in flynn cluster-> 9-> 2 
+Number of images in trump cluster-> 6-> 2 
+Number of images in flynn cluster-> 10-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 8-> 4 
+Number of images in flynn cluster-> 13-> 3 
+Number of images in trump cluster-> 9-> 1 
+Number of images in trump cluster-> 10-> 7 
+Number of images in flynn cluster-> 14-> 10 
+Number of images in khewsis cluster->6-> 3 
+Number of images in trump cluster-> 11-> 2 
+Number of images in flynn cluster-> 15-> 3 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in trump cluster-> 12-> 2 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 14-> 2 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in trump cluster-> 16-> 4 
+Number of images in flynn cluster-> 22-> 4 
+Number of images in khewsis cluster->9-> 2 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 23-> 8 
+Number of images in khewsis cluster->10-> 5 
+Number of images in flynn cluster-> 24-> 3 
+Number of images in trump cluster-> 18-> 2 
+Number of images in flynn cluster-> 25-> 3 
+Number of images in khewsis cluster->11-> 1 
+Number of images in flynn cluster-> 26-> 2 
+Number of images in trump cluster-> 19-> 2 
+Number of images in trump cluster-> 20-> 1 
+Number of images in flynn cluster-> 27-> 1 
+Number of images in trump cluster-> 21-> 3 
+Number of images in trump cluster-> 22-> 1 
+Number of images in flynn cluster-> 28-> 1 
+Number of images in khewsis cluster->12-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in flynn cluster-> 30-> 2 
+Total clusters for trump rnc is 22
+Total clusters for flynn is 30
+Total clusters for khewsis rnc is 12
+Writing for the file -->  ideology__canny_-som-umap_som_ 
+Total clusters found -->26
+Writing for the file -->  ideology__brief_-som-pca-tsne_som_ 
+Total clusters found -->41
+Number of images in trump cluster-> 1-> 2 
+Number of images in flynn cluster-> 1-> 1 
+Number of images in trump cluster-> 2-> 5 
+Number of images in flynn cluster-> 2-> 5 
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 3-> 2 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 6-> 3 
+Number of images in trump cluster-> 4-> 2 
+Number of images in trump cluster-> 5-> 9 
+Number of images in flynn cluster-> 7-> 12 
+Number of images in khewsis cluster->4-> 2 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 6-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in flynn cluster-> 9-> 1 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 8-> 3 
+Number of images in flynn cluster-> 10-> 4 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 11-> 2 
+Number of images in khewsis cluster->8-> 1 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in trump cluster-> 9-> 7 
+Number of images in flynn cluster-> 14-> 6 
+Number of images in khewsis cluster->10-> 2 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 15-> 2 
+Number of images in trump cluster-> 11-> 2 
+Number of images in flynn cluster-> 16-> 7 
+Number of images in khewsis cluster->11-> 4 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 17-> 2 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 14-> 2 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 15-> 2 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in trump cluster-> 18-> 4 
+Number of images in flynn cluster-> 19-> 10 
+Number of images in khewsis cluster->14-> 1 
+Number of images in flynn cluster-> 20-> 3 
+Number of images in flynn cluster-> 21-> 1 
+Total clusters for trump rnc is 18
+Total clusters for flynn is 21
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology__grayscale_-som-umap_som_ 
+Total clusters found -->18
+Writing for the file -->  ideology__orb_-som-umap_som_ 
+Total clusters found -->17
+Writing for the file -->  ideology_model_densenet169-som-pca_som_ 
+Total clusters found -->73
+Number of images in trump cluster-> 1-> 5 
+Number of images in flynn cluster-> 1-> 2 
+Number of images in trump cluster-> 2-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 3-> 2 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 4-> 8 
+Number of images in flynn cluster-> 5-> 5 
+Number of images in khewsis cluster->3-> 2 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in trump cluster-> 5-> 3 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in khewsis cluster->4-> 2 
+Number of images in trump cluster-> 6-> 3 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in khewsis cluster->5-> 2 
+Number of images in trump cluster-> 7-> 2 
+Number of images in flynn cluster-> 9-> 6 
+Number of images in khewsis cluster->6-> 1 
+Number of images in trump cluster-> 8-> 1 
+Number of images in flynn cluster-> 10-> 4 
+Number of images in khewsis cluster->7-> 2 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 10-> 2 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 11-> 2 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in flynn cluster-> 14-> 2 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 17-> 2 
+Number of images in flynn cluster-> 18-> 2 
+Number of images in trump cluster-> 16-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in flynn cluster-> 24-> 2 
+Number of images in trump cluster-> 20-> 4 
+Number of images in flynn cluster-> 25-> 5 
+Number of images in flynn cluster-> 26-> 3 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 21-> 2 
+Number of images in flynn cluster-> 27-> 2 
+Number of images in khewsis cluster->12-> 1 
+Number of images in flynn cluster-> 28-> 2 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in flynn cluster-> 30-> 3 
+Number of images in flynn cluster-> 31-> 1 
+Number of images in khewsis cluster->13-> 2 
+Number of images in flynn cluster-> 32-> 3 
+Number of images in flynn cluster-> 33-> 2 
+Number of images in flynn cluster-> 34-> 1 
+Number of images in trump cluster-> 22-> 2 
+Number of images in flynn cluster-> 35-> 2 
+Number of images in trump cluster-> 23-> 1 
+Number of images in flynn cluster-> 36-> 1 
+Number of images in khewsis cluster->14-> 1 
+Total clusters for trump rnc is 23
+Total clusters for flynn is 36
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology_model_densenet169-som-pca-tsne_som_ 
+Total clusters found -->64
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 1-> 5 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 2-> 1 
+Number of images in trump cluster-> 1-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in trump cluster-> 2-> 7 
+Number of images in flynn cluster-> 4-> 11 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 3-> 7 
+Number of images in flynn cluster-> 5-> 7 
+Number of images in khewsis cluster->4-> 1 
+Number of images in khewsis cluster->5-> 2 
+Number of images in trump cluster-> 4-> 1 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in trump cluster-> 6-> 5 
+Number of images in flynn cluster-> 7-> 7 
+Number of images in khewsis cluster->6-> 2 
+Number of images in trump cluster-> 7-> 2 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 8-> 4 
+Number of images in flynn cluster-> 8-> 5 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 9-> 2 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 9-> 2 
+Number of images in khewsis cluster->9-> 1 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in flynn cluster-> 11-> 3 
+Number of images in khewsis cluster->10-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in trump cluster-> 12-> 3 
+Number of images in flynn cluster-> 14-> 4 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in flynn cluster-> 16-> 2 
+Number of images in khewsis cluster->12-> 1 
+Number of images in trump cluster-> 14-> 3 
+Number of images in flynn cluster-> 17-> 5 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 15-> 2 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in trump cluster-> 16-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in trump cluster-> 18-> 2 
+Number of images in flynn cluster-> 21-> 5 
+Number of images in khewsis cluster->14-> 3 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in khewsis cluster->15-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in flynn cluster-> 23-> 2 
+Total clusters for trump rnc is 19
+Total clusters for flynn is 23
+Total clusters for khewsis rnc is 15
+Writing for the file -->  ideology__orb_-som-pca_som_ 
+Total clusters found -->84
+Number of images in flynn cluster-> 1-> 2 
+Number of images in trump cluster-> 1-> 3 
+Number of images in khewsis cluster->1-> 1 
+Number of images in trump cluster-> 2-> 2 
+Number of images in flynn cluster-> 2-> 4 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in flynn cluster-> 5-> 1 
+Number of images in trump cluster-> 3-> 2 
+Number of images in khewsis cluster->2-> 1 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 6-> 1 
+Number of images in trump cluster-> 4-> 1 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in flynn cluster-> 8-> 1 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 9-> 3 
+Number of images in flynn cluster-> 10-> 1 
+Number of images in khewsis cluster->5-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in flynn cluster-> 12-> 2 
+Number of images in khewsis cluster->6-> 1 
+Number of images in flynn cluster-> 13-> 5 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in khewsis cluster->7-> 2 
+Number of images in trump cluster-> 6-> 1 
+Number of images in flynn cluster-> 15-> 4 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 7-> 1 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in trump cluster-> 8-> 2 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 17-> 2 
+Number of images in trump cluster-> 10-> 9 
+Number of images in flynn cluster-> 18-> 12 
+Number of images in khewsis cluster->9-> 5 
+Number of images in trump cluster-> 11-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in flynn cluster-> 19-> 2 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 23-> 2 
+Number of images in flynn cluster-> 24-> 1 
+Number of images in trump cluster-> 16-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in flynn cluster-> 26-> 2 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 27-> 1 
+Number of images in trump cluster-> 19-> 2 
+Number of images in flynn cluster-> 28-> 2 
+Number of images in khewsis cluster->12-> 1 
+Number of images in flynn cluster-> 29-> 1 
+Number of images in khewsis cluster->13-> 1 
+Number of images in trump cluster-> 20-> 1 
+Number of images in trump cluster-> 21-> 2 
+Number of images in trump cluster-> 22-> 1 
+Number of images in trump cluster-> 23-> 2 
+Number of images in flynn cluster-> 30-> 2 
+Number of images in trump cluster-> 24-> 2 
+Number of images in flynn cluster-> 31-> 1 
+Number of images in trump cluster-> 25-> 1 
+Number of images in trump cluster-> 26-> 2 
+Number of images in flynn cluster-> 32-> 4 
+Number of images in flynn cluster-> 33-> 1 
+Number of images in trump cluster-> 27-> 2 
+Number of images in flynn cluster-> 34-> 1 
+Number of images in khewsis cluster->14-> 1 
+Number of images in flynn cluster-> 35-> 1 
+Total clusters for trump rnc is 27
+Total clusters for flynn is 35
+Total clusters for khewsis rnc is 14
+Writing for the file -->  ideology__sobel_-som-pca_som_ 
+Total clusters found -->70
+Number of images in trump cluster-> 1-> 3 
+Number of images in flynn cluster-> 1-> 5 
+Number of images in trump cluster-> 2-> 2 
+Number of images in flynn cluster-> 2-> 3 
+Number of images in khewsis cluster->1-> 1 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in flynn cluster-> 4-> 1 
+Number of images in khewsis cluster->2-> 3 
+Number of images in trump cluster-> 3-> 3 
+Number of images in flynn cluster-> 5-> 5 
+Number of images in khewsis cluster->3-> 1 
+Number of images in trump cluster-> 4-> 5 
+Number of images in flynn cluster-> 6-> 5 
+Number of images in khewsis cluster->4-> 2 
+Number of images in trump cluster-> 5-> 1 
+Number of images in flynn cluster-> 7-> 1 
+Number of images in trump cluster-> 6-> 8 
+Number of images in flynn cluster-> 8-> 7 
+Number of images in khewsis cluster->5-> 2 
+Number of images in trump cluster-> 7-> 7 
+Number of images in flynn cluster-> 9-> 12 
+Number of images in khewsis cluster->6-> 4 
+Number of images in trump cluster-> 8-> 2 
+Number of images in flynn cluster-> 10-> 3 
+Number of images in khewsis cluster->7-> 1 
+Number of images in flynn cluster-> 11-> 2 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in trump cluster-> 9-> 1 
+Number of images in flynn cluster-> 13-> 1 
+Number of images in trump cluster-> 10-> 1 
+Number of images in khewsis cluster->8-> 1 
+Number of images in flynn cluster-> 14-> 3 
+Number of images in trump cluster-> 11-> 5 
+Number of images in flynn cluster-> 15-> 6 
+Number of images in khewsis cluster->9-> 2 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in trump cluster-> 12-> 2 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in flynn cluster-> 19-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 20-> 1 
+Number of images in flynn cluster-> 21-> 1 
+Number of images in khewsis cluster->11-> 1 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 22-> 1 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in flynn cluster-> 24-> 3 
+Number of images in trump cluster-> 16-> 2 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in trump cluster-> 17-> 1 
+Number of images in flynn cluster-> 26-> 1 
+Total clusters for trump rnc is 17
+Total clusters for flynn is 26
+Total clusters for khewsis rnc is 11
+Writing for the file -->  ideology_model_resnet50-som-tsne_som_ 
+Total clusters found -->70
+Number of images in trump cluster-> 1-> 5 
+Number of images in flynn cluster-> 1-> 10 
+Number of images in khewsis cluster->1-> 2 
+Number of images in trump cluster-> 2-> 2 
+Number of images in khewsis cluster->2-> 1 
+Number of images in trump cluster-> 3-> 1 
+Number of images in flynn cluster-> 2-> 4 
+Number of images in flynn cluster-> 3-> 1 
+Number of images in trump cluster-> 4-> 3 
+Number of images in flynn cluster-> 4-> 3 
+Number of images in khewsis cluster->3-> 1 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in trump cluster-> 5-> 1 
+Number of images in khewsis cluster->4-> 1 
+Number of images in trump cluster-> 6-> 2 
+Number of images in flynn cluster-> 6-> 9 
+Number of images in khewsis cluster->5-> 3 
+Number of images in trump cluster-> 7-> 1 
+Number of images in flynn cluster-> 7-> 3 
+Number of images in trump cluster-> 8-> 4 
+Number of images in flynn cluster-> 8-> 7 
+Number of images in khewsis cluster->6-> 1 
+Number of images in khewsis cluster->7-> 1 
+Number of images in trump cluster-> 9-> 5 
+Number of images in flynn cluster-> 9-> 4 
+Number of images in trump cluster-> 10-> 1 
+Number of images in flynn cluster-> 10-> 3 
+Number of images in khewsis cluster->8-> 1 
+Number of images in trump cluster-> 11-> 1 
+Number of images in khewsis cluster->9-> 1 
+Number of images in trump cluster-> 12-> 1 
+Number of images in trump cluster-> 13-> 1 
+Number of images in flynn cluster-> 11-> 1 
+Number of images in trump cluster-> 14-> 1 
+Number of images in flynn cluster-> 12-> 1 
+Number of images in flynn cluster-> 13-> 2 
+Number of images in trump cluster-> 15-> 1 
+Number of images in flynn cluster-> 14-> 1 
+Number of images in trump cluster-> 16-> 2 
+Number of images in flynn cluster-> 15-> 1 
+Number of images in trump cluster-> 17-> 2 
+Number of images in flynn cluster-> 16-> 1 
+Number of images in flynn cluster-> 17-> 1 
+Number of images in trump cluster-> 18-> 1 
+Number of images in flynn cluster-> 18-> 1 
+Number of images in flynn cluster-> 19-> 2 
+Number of images in flynn cluster-> 20-> 3 
+Number of images in flynn cluster-> 21-> 2 
+Number of images in khewsis cluster->10-> 1 
+Number of images in trump cluster-> 19-> 1 
+Number of images in khewsis cluster->11-> 2 
+Number of images in trump cluster-> 20-> 4 
+Number of images in flynn cluster-> 22-> 3 
+Number of images in khewsis cluster->12-> 3 
+Number of images in flynn cluster-> 23-> 1 
+Number of images in trump cluster-> 21-> 2 
+Number of images in flynn cluster-> 24-> 2 
+Number of images in khewsis cluster->13-> 1 
+Number of images in flynn cluster-> 25-> 1 
+Number of images in trump cluster-> 22-> 1 
+Number of images in trump cluster-> 23-> 2 
+Number of images in trump cluster-> 24-> 1 
+Total clusters for trump rnc is 24
+Total clusters for flynn is 25
+Total clusters for khewsis rnc is 13
