@@ -194,7 +194,7 @@ tr:hover {background-color:#9ef7f6;}
       <a  style="color:blue" href="Feature_Extraction_without_pretrained.html">Feature_Extraction_without_pretrained.html</a>
 
       The feature extraction code can be found in the github link as <br>
-       <a  style="color:blue" href=></a>
+       <a  style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/Feature_extraction/Images/image_feature_extraction.py">https://github.com/Himani2000/GSOC_2020/blob/master/Feature_extraction/Images/image_feature_extraction.py</a>
       I extracted the above features for both the cropped and the uncropped version <br>
       I ran these features through the agglomerative and the density based methods <br>
 
@@ -202,7 +202,7 @@ tr:hover {background-color:#9ef7f6;}
 
       <a style="color:blue"  href="concatenated_without_pretrained_density_agg_text_file.txt">concatenated_without_pretrained_density_agg_text_file.txt</a><br>
       <a  style="color:blue"  href="concatenated_without_pretrained_crop_density_agg_text_file.txt">crop_concatenated_text_file.txt</a><br>
-      And again to my surprise none of them passed the filter <br>
+      And again to my surprise none of them passed the filter (again the details of the filter are provided in the previous week blog posts :) )<br>
       A sample pdf file just to see how are the results is <br>
       <a></a>
 
@@ -210,11 +210,30 @@ tr:hover {background-color:#9ef7f6;}
       <b>1. Self Organizing map</b> <br>
       Self Organizing map is a type of the artificial neural network based technique. It differs from other artificial network techniques as they apply competitive learning as opposed to the error-correction learning (backpropagation with gradient descent ).
       SOM starts by initializing the weight vectors , from there a sample vector is  randomly selected, and a weight vector is searched with represents the sample best. The chosen weight vectors along with the neighbours of the weight vector are rewarded by being able to become more like the chosen sample vector .<br>
-      More details can be found in here :
-      <a href="https://towardsdatascience.com/self-organizing-maps-ff5853a118d4" >https://towardsdatascience.com/self-organizing-maps-ff5853a118d4</a> <br>
-      the  <b>code</b> for the SOM can be found here <br>
-      <a href=""></a>
+      More details can be found in here :<br>
 
+      <a style="color:blue"  href="https://towardsdatascience.com/self-organizing-maps-ff5853a118d4" >https://towardsdatascience.com/self-organizing-maps-ff5853a118d4</a> <br>
+      the  <b>code</b> for the SOM can be found here <br>
+      <a  style="color:blue"  href="https://github.com/Himani2000/GSOC_2020/blob/master/clustering-models/som_clustering.py">https://github.com/Himani2000/GSOC_2020/blob/master/clustering-models/som_clustering.py</a>
+
+      And again to my surprise none of them passed the filter (again the details of the filter are provided in the previous week blog posts :) )<br>
+
+     <b> Now the few next possible steps seems to be </b><br>
+      a)Using autoencoders as the dimensionality reduction technique and applying the hierarchical and density based algorithm above the reduced transformation .<br>
+
+
+
+b)Using the combined deep clustering methods such as Deep Embedded Clustering (DEC),Deep Clustering Network (DCN) and etc.<br>
+
+c)Extract the region of faces with some surrounding pixedl and then apply any of the clustering algoithm <br>
+
+d) Ensemble techniques to combine different clustering algorithms .<br>
+
+e)using attention based mechanisms - To find the person , the 0/1 weights will result into the class activation map( we can use the  generalization of CAM known as Grad-Cam), then use  a class-based clustering algorithm to divide the training data to several clusters with respective members belonging to the same class.<br>
+
+Also I will be integrating the bio metric clustering along with the fellow Gsoc mate in the redhen rapid annotator<br>
+
+See you next week <br>
 
 
           </p>  
