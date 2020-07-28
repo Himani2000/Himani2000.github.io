@@ -1,0 +1,53 @@
+Writing for the file -->  ideology_crop_model_mobilenet-density-pca-tsne_dbscan_labels 
+Total clusters found -->622
+Number of images in trump cluster-> 1-> 12 
+Number of images in trump cluster-> 2-> 34 
+Number of images in flynn cluster-> 1-> 9 
+Number of images in flynn cluster-> 2-> 44 
+Number of images in khewsis cluster->1-> 19 
+Number of images in flynn cluster-> 3-> 5 
+Number of images in flynn cluster-> 4-> 3 
+Number of images in flynn cluster-> 5-> 8 
+Total clusters for trump rnc is 2
+Total clusters for flynn is 5
+Total clusters for khewsis rnc is 1
+Writing for the file -->  ideology_crop_model_densenet169-density-umap_dbscan_labels 
+Total clusters found -->375
+Number of images in trump cluster-> 1-> 12 
+Number of images in trump cluster-> 2-> 34 
+Number of images in flynn cluster-> 1-> 37 
+Number of images in flynn cluster-> 2-> 32 
+Number of images in khewsis cluster->1-> 12 
+Number of images in khewsis cluster->2-> 7 
+Total clusters for trump rnc is 2
+Total clusters for flynn is 2
+Total clusters for khewsis rnc is 2
+Writing for the file -->  ideology_crop_model_resnet50-density-umap_dbscan_labels 
+Total clusters found -->365
+Number of images in trump cluster-> 1-> 12 
+Number of images in trump cluster-> 2-> 23 
+Number of images in trump cluster-> 3-> 11 
+Number of images in flynn cluster-> 1-> 12 
+Number of images in flynn cluster-> 2-> 25 
+Number of images in khewsis cluster->1-> 19 
+Number of images in flynn cluster-> 3-> 15 
+Number of images in flynn cluster-> 4-> 15 
+Number of images in flynn cluster-> 5-> 2 
+Total clusters for trump rnc is 3
+Total clusters for flynn is 5
+Total clusters for khewsis rnc is 1
+Writing for the file -->  ideology_crop_model_densenet121-density-umap_dbscan_labels 
+Total clusters found -->397
+Number of images in trump cluster-> 1-> 12 
+Number of images in trump cluster-> 2-> 23 
+Number of images in trump cluster-> 3-> 10 
+Number of images in khewsis cluster->1-> 19 
+Number of images in flynn cluster-> 1-> 61 
+Number of images in flynn cluster-> 2-> 2 
+Number of images in flynn cluster-> 3-> 2 
+Number of images in flynn cluster-> 4-> 2 
+Number of images in trump cluster-> 4-> 1 
+Number of images in flynn cluster-> 5-> 2 
+Total clusters for trump rnc is 4
+Total clusters for flynn is 5
+Total clusters for khewsis rnc is 1
