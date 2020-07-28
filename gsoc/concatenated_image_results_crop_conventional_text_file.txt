@@ -1,0 +1,37 @@
+Writing for the file -->  crop_ideology__sobel_-density-tsne_dbscan_labels 
+Total clusters found -->196
+Number of images in trump cluster-> 1-> 33 
+Number of images in flynn cluster-> 1-> 69 
+Number of images in khewsis cluster->1-> 10 
+Number of images in trump cluster-> 2-> 12 
+Number of images in khewsis cluster->2-> 7 
+Number of images in trump cluster-> 3-> 1 
+Number of images in khewsis cluster->3-> 2 
+Total clusters for trump rnc is 3
+Total clusters for flynn is 1
+Total clusters for khewsis rnc is 3
+Writing for the file -->  crop_ideology__fast_-density-pca-tsne_dbscan_labels 
+Total clusters found -->288
+Number of images in trump cluster-> 1-> 46 
+Number of images in flynn cluster-> 1-> 69 
+Number of images in khewsis cluster->1-> 11 
+Number of images in khewsis cluster->2-> 1 
+Number of images in khewsis cluster->3-> 7 
+Total clusters for trump rnc is 1
+Total clusters for flynn is 1
+Total clusters for khewsis rnc is 3
+Writing for the file -->  crop_ideology__hog_-density-umap_dbscan_labels 
+Total clusters found -->396
+Number of images in trump cluster-> 1-> 12 
+Number of images in trump cluster-> 2-> 24 
+Number of images in trump cluster-> 3-> 10 
+Number of images in flynn cluster-> 1-> 15 
+Number of images in flynn cluster-> 2-> 31 
+Number of images in khewsis cluster->1-> 18 
+Number of images in flynn cluster-> 3-> 16 
+Number of images in flynn cluster-> 4-> 5 
+Number of images in flynn cluster-> 5-> 2 
+Number of images in khewsis cluster->2-> 1 
+Total clusters for trump rnc is 3
+Total clusters for flynn is 5
+Total clusters for khewsis rnc is 2
