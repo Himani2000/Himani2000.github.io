@@ -1,0 +1,22 @@
+Writing for the file -->  ideology_model_resnet50-som-pca-tsne_som_ 
+Total clusters found -->73
+Number of images in flynn cluster-> 1-> 6 
+Number of images in flynn cluster-> 2-> 10 
+Number of images in flynn cluster-> 3-> 4 
+Number of images in trump cluster-> 1-> 46 
+Number of images in flynn cluster-> 4-> 49 
+Number of images in khewsis cluster->1-> 19 
+Total clusters for trump rnc is 1
+Total clusters for flynn is 4
+Total clusters for khewsis rnc is 1
+Writing for the file -->  ideology_model_resnet50-som-tsne_som_ 
+Total clusters found -->75
+Number of images in khewsis cluster->1-> 18 
+Number of images in flynn cluster-> 1-> 39 
+Number of images in trump cluster-> 1-> 25 
+Number of images in trump cluster-> 2-> 21 
+Number of images in khewsis cluster->2-> 1 
+Number of images in flynn cluster-> 2-> 30 
+Total clusters for trump rnc is 2
+Total clusters for flynn is 2
+Total clusters for khewsis rnc is 2
