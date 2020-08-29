@@ -102,7 +102,7 @@ tr:hover {background-color:#9ef7f6;}
     
     <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html">GSOC2020<i></i> week-10 coding period</a>
+        <a class="navbar-brand" href="index.html">GSOC2020<i></i> week-12 coding period</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
@@ -123,9 +123,9 @@ tr:hover {background-color:#9ef7f6;}
         <div class="row">
           <div class="col-lg-9 ftco-animate">
             <p class="mb-5">
-              <img src="https://hackernoon.com/hn-images/1*6W5eurFhYPpwNbRbqNImgQ.jpeg" alt="" class="img-fluid">
+              <img src="https://miro.medium.com/max/1024/1*QiBVRTA5PeVW0x0la79TDA.jpeg" alt="" class="img-fluid">
               <p style="color:black;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-left: 10px">
-              Lets get started with week-10
+              Lets get started with week-12
               </p>
    </div> <!-- .col-md-8 -->
           <div class="col-lg-3 sidebar pl-lg-5 ftco-animate">
@@ -174,64 +174,12 @@ tr:hover {background-color:#9ef7f6;}
 
 <b>
 This week we will not continue the deep clustering we will explore the <br>
-1.Attention mechanisms <br>
-2.Making the new dataset <br>
-3.Feature concatenation techniques <br>
+1. Proposed feature extraction architecture for the image clustering <br>
+2. Audio feature extraction -pipeline <br>
+3. Final Bio-metric clustering deployement <br>
 </b>
 
-<b>1. Attention mechanism </b><br>
-The class activation tecnhnique suffers through a limitation that it requires feature maps to directly precede the softmax layers, so it is applicable to a particular kind of CNN architectures that perform global average pooling over convolutional maps immediately before prediction. Grad-Cam, unlike CAM, uses the gradient information flowing into the last convolutional layer of the CNN to understand each neuron for a decision of interest.
 
-Our idea is to use the pretrained networks such as vgg, resnet , inception , densenet and etc and see the attention it is making on the input images <br>
-
-The code can be found on here <br>
-<a style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering/GradCAM.ipynb
-">https://github.com/Himani2000/GSOC_2020/blob/master/Image_clustering/GradCAM.ipynb
-</a>
-<br><br>
-
-
-
-Inference from the code :<br>
-
- <b>2. Making the new dataset</b><br>
- What does making a new dataset means ? So our dataset is a screenshots of the multimedia which mostly contains people in them since we saw in the attention method that the focus is not on the people but is  rather in some other parts of the image , now to reduce the noise and make the attention more focused towards the people we make two new datasets A and B. <br>
- where A is the dataset of detected persons <br>
- and B is the dataset of the detected faces plus some surrounding area <br>
-
-<b>Results for the faces dataset</b><br>
-<a style="color:blue" href="canny_ideology_face_convolutional1-hierarchical-pca-tsne_agg_labels.pdf">canny_ideology_face_convolutional1-hierarchical-pca-tsne_agg_labels.pdf</a><br>
-<a style="color:blue" href="ideology_face_model_mobilenet-density-pca_90_hdbscan_labels.pdf">ideology_face_model_mobilenet-density-pca_90_hdbscan_labels.pdf</a><br>
-<a style="color:blue" href="ideology_face_model_mobilenet-density-pca_hdbscan_labels.pdf">ideology_face_model_mobilenet-density-pca_hdbscan_labels.pdf</a><br>
-<a style="color:blue" href="ideology_face_dataset_results_hog_-density-tsne_dbscan_labels.pdf">ideology_face_dataset_results_hog_-density-tsne_dbscan_labels.pdf</a><br>
-
-<b>Results for the person dataset</b><br>
-<a style="color:blue" href="ideology_person_model_mobilenet-density-pca-tsne_dbscan_labels.pdf">ideology_person_model_mobilenet-density-pca-tsne_dbscan_labels.pdf</a><br>
-<a style="color:blue" href="ideology_person_model_resnet50-density-pca_90_birch_labels.pdf">ideology_person_model_resnet50-density-pca_90_birch_labels.pdf</a><br>
-<a style="color:blue" href="grayscale_ideology_person_convolutional2-density-tsne_dbscan_labels.pdf">grayscale_ideology_person_convolutional2-density-tsne_dbscan_labels.pdf</a><br>
-<a style="color:blue" href=""></a><br>
-<a style="color:blue" href=""></a><br>
-
-
-
-The code (jupyter notebook can be found on here , please see the jupyter notebook if you are interested in the visualization ) for the person detection <br>
-<a style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/Data_extraction/Images/person-detection.ipynb">https://github.com/Himani2000/GSOC_2020/blob/master/Data_extraction/Images/person-detection.ipynb</a>
-The python code <br>
-<a style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/Data_extraction/Images/person_detecton.py">https://github.com/Himani2000/GSOC_2020/blob/master/Data_extraction/Images/person_detecton.py</a>
-
-The code(jupyter notebook ) for face detection with some surrounding area <br>
-
-<a style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/Data_extraction/Images/Face-Detection.ipynb">https://github.com/Himani2000/GSOC_2020/blob/master/Data_extraction/Images/Face-Detection.ipynb</a>
-The code (python code) for the face detection with some surrounding area <br>
-<a style="color:blue" href="https://github.com/Himani2000/GSOC_2020/blob/master/Data_extraction/Images/face_detect.py">https://github.com/Himani2000/GSOC_2020/blob/master/Data_extraction/Images/face_detect.py</a>
-
-
-
-
-		
- 
-
-See you next week <br>
 
 
           </p>  
